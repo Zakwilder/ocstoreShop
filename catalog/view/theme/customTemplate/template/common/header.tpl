@@ -69,6 +69,7 @@ DD_belatedPNG.fix('#logo img');
         <li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
         <li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li>
     </ul>
+    <?php echo $cart; ?>
 </div>
 <div id="header">
   <?php if ($logo) { ?>
@@ -76,7 +77,6 @@ DD_belatedPNG.fix('#logo img');
   <?php } ?>
   <?php echo $language; ?>
   <?php echo $currency; ?>
-  <?php echo $cart; ?>
   <div id="search">
     <div class="button-search"></div>
     <?php if ($filter_name) { ?>
@@ -85,5 +85,8 @@ DD_belatedPNG.fix('#logo img');
     <input type="text" name="filter_name" value="<?php echo $text_search; ?>" onclick="this.value = '';" onkeydown="this.style.color = '#000000';" />
     <?php } ?>
   </div>
+</div>
+<div id="filter">
+
 </div>
 <div id="notification"></div>

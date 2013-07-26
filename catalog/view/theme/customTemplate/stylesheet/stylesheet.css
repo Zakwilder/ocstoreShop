@@ -84,7 +84,7 @@ label {
 #column-right + #content {
 	margin-right: 195px;
 }
-#navi {
+#navi, #filter {
     background: url(../image/topmenu-bg.jpg) 0 0 repeat-x;
     height: 41px;
     border-bottom: 1px solid #753436;
@@ -139,7 +139,6 @@ label {
     -moz-border-radius: 0px 0px 3px 3px;
     -khtml-border-radius: 0px 0px 3px 3px;
     border-radius: 0px 0px 3px 3px;
-    background: url('../image/navi.png');
 }
 #navi > ul > li:hover > div {
     display: table;
@@ -167,6 +166,22 @@ label {
 }
 #navi > ul > li > div > ul > li > a {
     color: #FFFFFF;
+}
+
+#navi #cart {
+    float: right;
+    width: 180px;
+}
+
+#navi #cart .cartimage {
+    display: block;
+    text-decoration: none;
+    background: url("../image/basket.png") 0 0 no-repeat;
+    padding-left: 45px;
+    height: 30px;
+    color: #ffe17a;
+    font: bold 14px "Century Gothic",Helvetica,sans-serif;
+    text-decoration: none;
 }
 
 #welcome {
@@ -198,11 +213,11 @@ label {
 }
 /* header */
 #header {
-	height: 90px;
-	margin-bottom: 7px;
-	padding-bottom: 4px;
-	position: relative;
-	z-index: 99;
+    height: 210px;
+    margin-bottom: 7px;
+    padding-bottom: 4px;
+    position: relative;
+    z-index: 99;
 }
 #header #logo {
 	position: absolute;
@@ -251,8 +266,10 @@ label {
 	top: 0px;
 	right: 145px;
 	z-index: 9;
-	min-width: 300px;
+    float: right;
+    width: 180px;
 }
+
 #header #cart .heading {
 	float: right;
 	margin-right: 172px;
@@ -273,9 +290,13 @@ label {
 	margin-top: 0px;
 	margin-bottom: 3px;
 }
-#header #cart .heading a {
-	color: #b44;
-	text-decoration: none;
+#header #cart a {
+    color: #78a240;
+    text-decoration: none;
+}
+#header #cart a:hover {
+    color: #28a240;
+    text-decoration: underline;
 }
 #header #cart .heading a span {
 	background: #FFFFFF url('../image/arrow-down.png') 100% 50% no-repeat;

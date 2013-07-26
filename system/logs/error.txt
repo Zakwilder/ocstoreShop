@@ -1,0 +1,2 @@
+2013-07-26 17:00:30 - PHP Notice:  Undefined variable: shopping_cart in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\module\cart.tpl on line 4
+2013-07-26 17:00:39 - PHP Notice:  Undefined variable: shopping_cart in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\module\cart.tpl on line 4

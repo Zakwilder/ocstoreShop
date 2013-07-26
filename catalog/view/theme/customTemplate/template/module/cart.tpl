@@ -1,8 +1,9 @@
 <div id="cart">
-  <div class="heading">
-    <h4><?php echo $heading_title; ?></h4>
-    <a><span id="cart-total"><?php echo $text_items; ?></span></a></div>
-  <div class="content">
+  <!--<div class="heading">-->
+    <!--<h4><?php echo $heading_title; ?></h4>-->
+    <a class="cartimage" href="<?php echo $cart; ?>"><span id="cart-total"><?php echo $text_items; ?></span></a>
+  <!--</div>-->
+  <!--<div class="content">
     <?php if ($products || $vouchers) { ?>
     <div class="mini-cart-info">
       <table>
@@ -47,5 +48,5 @@
     <?php } else { ?>
     <div class="empty"><?php echo $text_empty; ?></div>
     <?php } ?>
-  </div>
+  </div>-->
 </div>
