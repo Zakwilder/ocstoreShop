@@ -75,6 +75,11 @@
                   <?php } else { ?>
                   <option value="column_right"><?php echo $text_column_right; ?></option>
                   <?php } ?>
+                  <?php if ($module['position'] == 'header') { ?>
+                  <option value="header" selected="selected"><?php echo $text_header; ?></option>
+                  <?php } else { ?>
+                  <option value="header"><?php echo $text_header; ?></option>
+                  <?php } ?>
                 </select></td>
               <td class="left"><select name="banner_module[<?php echo $module_row; ?>][status]">
                   <?php if ($module['status']) { ?>
@@ -124,6 +129,7 @@ function addModule() {
 	html += '      <option value="content_bottom"><?php echo $text_content_bottom; ?></option>';
 	html += '      <option value="column_left"><?php echo $text_column_left; ?></option>';
 	html += '      <option value="column_right"><?php echo $text_column_right; ?></option>';
+    html += '      <option value="column_right"><?php echo $text_header; ?></option>';
 	html += '    </select></td>';
 	html += '    <td class="left"><select name="banner_module[' + module_row + '][status]">';
     html += '      <option value="1" selected="selected"><?php echo $text_enabled; ?></option>';

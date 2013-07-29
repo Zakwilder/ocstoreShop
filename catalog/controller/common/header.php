@@ -1,7 +1,9 @@
-<?php   
+<?php
 class ControllerCommonHeader extends Controller {
 	protected function index() {
 		$this->data['title'] = $this->document->getTitle();
+
+		$this->document->addScript('catalog/view/javascript/jquery/jquery.cycle.js');
 		
 		if (isset($this->request->server['HTTPS']) && (($this->request->server['HTTPS'] == 'on') || ($this->request->server['HTTPS'] == '1'))) {
 			$this->data['base'] = $this->config->get('config_ssl');
@@ -75,6 +77,9 @@ class ControllerCommonHeader extends Controller {
 		$this->data['text_logged'] = sprintf($this->language->get('text_logged'), $this->url->link('account/account', '', 'SSL'), $this->customer->getFirstName(), $this->url->link('account/logout', '', 'SSL'));
 		$this->data['text_account'] = $this->language->get('text_account');
     	$this->data['text_checkout'] = $this->language->get('text_checkout');
+		$this->data['text_product'] = $this->language->get('text_product');
+		$this->data['text_contact'] = $this->language->get('text_contact');
+		$this->data['text_about'] = $this->language->get('text_about');
 				
 		$this->data['home'] = $this->url->link('common/home');
 		$this->data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
@@ -82,7 +87,10 @@ class ControllerCommonHeader extends Controller {
 		$this->data['account'] = $this->url->link('account/account', '', 'SSL');
 		$this->data['shopping_cart'] = $this->url->link('checkout/cart');
 		$this->data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
-		
+		$this->data['product'] = $this->url->link('product/product', '', 'SSL');
+		$this->data['contact'] = $this->url->link('information/contact', '', 'SSL');
+		$this->data['about'] = $this->url->link('information/information', '', 'SSL');
+
 		if (isset($this->request->get['filter_name'])) {
 			$this->data['filter_name'] = $this->request->get['filter_name'];
 		} else {
@@ -132,6 +140,48 @@ class ControllerCommonHeader extends Controller {
 					'column'   => $category['column'] ? $category['column'] : 1,
 					'href'     => $this->url->link('product/category', 'path=' . $category['category_id'])
 				);
+			}
+		}
+
+		$layout_id = 1;
+
+		$module_data = array();
+
+		$this->load->model('setting/extension');
+
+		$extensions = $this->model_setting_extension->getExtensions('module');
+
+		foreach ($extensions as $extension) {
+			$modules = $this->config->get($extension['code'] . '_module');
+
+			if ($modules) {
+				foreach ($modules as $module) {
+					if ($module['layout_id'] == $layout_id && $module['position'] == 'header' && $module['status']) {
+						$module_data[] = array(
+							'code'       => $extension['code'],
+							'setting'    => $module,
+							'sort_order' => $module['sort_order']
+						);
+					}
+				}
+			}
+		}
+
+		$sort_order = array();
+
+		foreach ($module_data as $key => $value) {
+			$sort_order[$key] = $value['sort_order'];
+		}
+
+		array_multisort($sort_order, SORT_ASC, $module_data);
+
+		$this->data['modules'] = array();
+
+		foreach ($module_data as $module) {
+			$module = $this->getChild('module/' . $module['code'], $module['setting']);
+
+			if ($module) {
+				$this->data['modules'][] = $module;
 			}
 		}
 		

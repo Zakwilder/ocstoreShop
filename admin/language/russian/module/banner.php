@@ -9,6 +9,7 @@ $_['text_content_top']    = 'Верх страницы';
 $_['text_content_bottom'] = 'Низ страницы';
 $_['text_column_left']    = 'Левая колонка';
 $_['text_column_right']   = 'Правая колонка';
+$_['text_header']         = 'Шапка';
 
 // Entry
 $_['entry_banner']        = 'Баннер:';

@@ -37,6 +37,7 @@
 <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/colorbox/colorbox.css" media="screen" />
 <script type="text/javascript" src="catalog/view/javascript/jquery/tabs.js"></script>
 <script type="text/javascript" src="catalog/view/javascript/common.js"></script>
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/customTemplate/stylesheet/slideshow.css" />
 <?php foreach ($scripts as $script) { ?>
 <script type="text/javascript" src="<?php echo $script; ?>"></script>
 <?php } ?>
@@ -64,15 +65,14 @@ DD_belatedPNG.fix('#logo img');
     </div>-->
     <ul>
         <li><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a></li>
-        <li><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a></li>
-        <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-        <li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
-        <li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li>
+        <li><a href="<?php echo $about; ?>"><?php echo $text_about; ?></a></li>
+        <li><a href="<?php echo $product; ?>" id="product"><?php echo $text_product; ?></a></li>
+        <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
     </ul>
     <?php echo $cart; ?>
 </div>
 <div id="header">
-  <?php if ($logo) { ?>
+  <!--<?php if ($logo) { ?>
   <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
   <?php } ?>
   <?php echo $language; ?>
@@ -84,9 +84,19 @@ DD_belatedPNG.fix('#logo img');
     <?php } else { ?>
     <input type="text" name="filter_name" value="<?php echo $text_search; ?>" onclick="this.value = '';" onkeydown="this.style.color = '#000000';" />
     <?php } ?>
-  </div>
+  </div>-->
+    <?php foreach ($modules as $module) { ?>
+    <?php echo $module; ?>
+    <?php } ?>
 </div>
 <div id="filter">
-
+    <div id="search">
+        <div class="button-search"></div>
+        <?php if ($filter_name) { ?>
+        <input type="text" name="filter_name" value="<?php echo $filter_name; ?>" />
+        <?php } else { ?>
+        <input type="text" name="filter_name" value="<?php echo $text_search; ?>" onclick="this.value = '';" onkeydown="this.style.color = '#000000';" />
+        <?php } ?>
+    </div>
 </div>
 <div id="notification"></div>
