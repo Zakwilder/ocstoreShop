@@ -21,9 +21,13 @@ class ModelCatalogManufacturer extends Model {
 				
 		if ($data['keyword']) {
 			$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'manufacturer_id=" . (int)$manufacturer_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'");
+		} else {
+			$this->load->model('module/deadcow_seo');
+			$this->model_module_deadcow_seo->generateManufacturer($manufacturer_id, $data['name'], $this->config->get('deadcow_seo_manufacturers_template'), $this->config->get('config_language'));
 		}
-		
+
 		$this->cache->delete('manufacturer');
+		return $manufacturer_id;
 	}
 	
 	public function editManufacturer($manufacturer_id, $data) {
@@ -51,9 +55,13 @@ class ModelCatalogManufacturer extends Model {
 		
 		if ($data['keyword']) {
 			$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'manufacturer_id=" . (int)$manufacturer_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'");
+		} else {
+			$this->load->model('module/deadcow_seo');
+			$this->model_module_deadcow_seo->generateManufacturer($manufacturer_id, $data['name'], $this->config->get('deadcow_seo_manufacturers_template'), $this->config->get('config_language'));
 		}
-		
+
 		$this->cache->delete('manufacturer');
+		return $manufacturer_id;
 	}
 	
 	public function deleteManufacturer($manufacturer_id) {

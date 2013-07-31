@@ -9,7 +9,11 @@ class ModelCatalogProduct extends Model {
 			$this->db->query("UPDATE " . DB_PREFIX . "product SET image = '" . $this->db->escape(html_entity_decode($data['image'], ENT_QUOTES, 'UTF-8')) . "' WHERE product_id = '" . (int)$product_id . "'");
 		}
 		
+		$productName = '';
 		foreach ($data['product_description'] as $language_id => $value) {
+			if ($language_id == $this->config->get('config_language_id')){
+				$productName = $value['name'];
+			}
 			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "', seo_title = '" . $this->db->escape($value['seo_title']) . "', seo_h1 = '" . $this->db->escape($value['seo_h1']) . "'");
 		}
 		
@@ -111,9 +115,21 @@ class ModelCatalogProduct extends Model {
 		
 		if ($data['keyword']) {
 			$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'product_id=" . (int)$product_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'");
+		} else {
+			$this->load->model('catalog/manufacturer');
+			$manufacturer = $this->model_catalog_manufacturer->getManufacturer((int)$data['manufacturer_id']);
+			$manufacturerName = '';
+			if ($manufacturer) {
+				$manufacturerName = $manufacturer['name'];
+			}
+			$this->load->model('module/deadcow_seo');
+			if ($productName) {
+				$this->model_module_deadcow_seo->generateProduct($product_id, $productName, $data['model'], $manufacturerName, $this->config->get('deadcow_seo_products_template'), $this->config->get('config_language'));
+			}
 		}
 						
 		$this->cache->delete('product');
+		return $product_id;
 	}
 	
 	public function editProduct($product_id, $data) {
@@ -125,7 +141,11 @@ class ModelCatalogProduct extends Model {
 		
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_description WHERE product_id = '" . (int)$product_id . "'");
 		
+		$productName = '';
 		foreach ($data['product_description'] as $language_id => $value) {
+			if ($language_id == $this->config->get('config_language_id')){
+				$productName = $value['name'];
+			}
 			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "', seo_title = '" . $this->db->escape($value['seo_title']) . "', seo_h1 = '" . $this->db->escape($value['seo_h1']) . "'");
 		}
 
@@ -253,9 +273,21 @@ class ModelCatalogProduct extends Model {
 		
 		if ($data['keyword']) {
 			$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'product_id=" . (int)$product_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'");
+		} else {
+			$this->load->model('catalog/manufacturer');
+			$manufacturer = $this->model_catalog_manufacturer->getManufacturer((int)$data['manufacturer_id']);
+			$manufacturerName = '';
+			if ($manufacturer) {
+				$manufacturerName = $manufacturer['name'];
+			}
+			$this->load->model('module/deadcow_seo');
+			if ($productName) {
+				$this->model_module_deadcow_seo->generateProduct($product_id, $productName, $data['model'], $manufacturerName, $this->config->get('deadcow_seo_products_template'), $this->config->get('config_language'));
+			}
 		}
 						
 		$this->cache->delete('product');
+		return $product_id;
 	}
 	
 	public function copyProduct($product_id) {

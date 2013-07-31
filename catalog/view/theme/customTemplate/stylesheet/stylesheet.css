@@ -29,7 +29,7 @@ p {
 	margin-bottom: 20px;
 }
 a, a:visited, a b {
-	color: #b44;
+    color: #FFE672;
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -68,7 +68,7 @@ label {
 }
 #column-left {
 	float: left;
-	width: 180px;
+	width: 240px;
 }
 #column-right {
 	float: right;
@@ -79,7 +79,7 @@ label {
 	margin-bottom: 25px;
 }
 #column-left + #column-right + #content, #column-left + #content {
-	margin-left: 195px;
+	margin-left: 255px;
 }
 #column-right + #content {
 	margin-right: 195px;
@@ -420,7 +420,7 @@ label {
 	border-radius: 3px 3px 3px 3px;
 	-webkit-box-shadow: 0px 2px 0px #F0F0F0;
 	-moz-box-shadow: 0px 2px 0px #F0F0F0;
-	box-shadow: 0px 2px 0px #F0F0F0;	
+	box-shadow: 0px 2px 0px #F0F0F0;
 }
 /* menu */
 #menu {
@@ -440,6 +440,7 @@ label {
 .breadcrumb {
 	color: #CCCCCC;
 	margin-bottom: 10px;
+    display: none;
 }
 .success, .warning, .attention, .information {
 	padding: 10px 10px 10px 33px;
@@ -599,23 +600,51 @@ table.radio tr.highlight:hover td {
 	float: right;
 	padding-top: 3px;
 }
+
+.left-menu {
+    padding: 0;
+    margin: 0;
+    font: normal 14px/12px "Century Gothic",Helvetica,sans-serif;
+    margin-top: 13px;
+    margin-left: 25px;
+}
+
+.left-menu li {
+    list-style: none;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background: url(../image/catmenu-itembg.png) 0 0 no-repeat;
+    width: 180px;
+    margin-top: -4px;
+}
+
+.left-menu li a {
+    text-align: center;
+    text-decoration: none;
+    color: #FFE672;
+    display: block;
+    height: 36px;
+    padding-top: 8px;
+    font: normal 14px/12px "Century Gothic",Helvetica,sans-serif;
+}
+
 /* button */
 a.button, input.button {
-	cursor: pointer;
-	color: #FFFFFF;
-	line-height: 12px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	background: url('../image/button.png') top left repeat-x;
-	-webkit-border-radius: 3px 3px 3px 3px;
-	-moz-border-radius: 3px 3px 3px 3px;
-	-khtml-border-radius: 3px 3px 3px 3px;
-	border-radius: 3px 3px 3px 3px;
-	-webkit-box-shadow: 1px 1px 1px #DDDDDD;
-	-moz-box-shadow: 1px 1px 1px #DDDDDD;
-	box-shadow: 1px 1px 1px #DDDDDD;
-	text-shadow:0 -1px #800000;
+    cursor: pointer;
+    color: #FFFFFF;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background: url('../image/button.png') top left repeat-x;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -khtml-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 2px 2px #4e0205;
+    -moz-box-shadow: 0px 2px 2px #4e0205;
+    box-shadow: 0px 2px 2px #4e0205;
 }
 a.button {
 	display: inline-block;
@@ -652,14 +681,14 @@ a.button:hover, input.button:hover {
 	margin-right: auto;
 }
 .htabs {
-	height: 30px;		
+	height: 30px;
 	line-height: 16px;
-	border-bottom: 1px solid #DDDDDD;	
+	border-bottom: 1px solid #DDDDDD;
 }
 .htabs a {
 	border-top: 1px solid #DDDDDD;
 	border-left: 1px solid #DDDDDD;
-	border-right: 1px solid #DDDDDD; 
+	border-right: 1px solid #DDDDDD;
 	background: #FFFFFF url('../image/tab.png') repeat-x;
 	padding: 7px 15px 6px 15px;
 	float: left;
@@ -687,30 +716,24 @@ a.button:hover, input.button:hover {
 }
 /* box */
 .box {
+
+}
+.box .box-heading {
+    border-bottom: 1px solid #b38667;
+    text-align: center;
+    font: bold 20px/30px "Century Gothic",Helvetica,sans-serif;
+    color: #efbd5d;
+    margin: 0;
+    padding: 4px 0;
+}
+.box .box-content {
     background: url(../image/content-transparent15.png) 0 0 repeat;
     margin: 10px;
     border: 1px solid #c7868f;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-}
-.box .box-heading {
-	-webkit-border-radius: 3px 3px 0px 0px;
-	-moz-border-radius: 3px 3px 0px 0px;
-	-khtml-border-radius: 3px 3px 0px 0px;
-	border-radius: 3px 3px 0px 0px;
-	border: 1px solid #DBDEE1;
-	background: url('../image/background.png') repeat-x;
-	padding: 8px 10px 7px 10px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 14px;
-	color: #888;
-	text-shadow:0 1px 0 #fff;
-}
-.box .box-content {
-	background: #FFFFFF;
+	/*background: #FFFFFF;
 	-webkit-border-radius: 0px 0px 3px 3px;
 	-moz-border-radius: 0px 0px 3px 3px;
 	-khtml-border-radius: 0px 0px 3px 3px;
@@ -718,19 +741,20 @@ a.button:hover, input.button:hover {
 	border-left: 1px solid #DBDEE1;
 	border-right: 1px solid #DBDEE1;
 	border-bottom: 1px solid #DBDEE1;
-	padding: 10px;
+	padding: 10px;*/
 }
 /* box products */
 .box-product {
 	width: 100%;
 	overflow: auto;
+    margin: 10px;
 }
 .box-product > div {
 	width: 130px;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 20px;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
 }
 #column-left + #column-right + #content .box-product > div {
 	width: 119px;
@@ -743,19 +767,21 @@ a.button:hover, input.button:hover {
 	padding: 3px;
 	border: 1px solid #E7E7E7;
 }
+
+.box-product .price {
+    color: #ffe672;
+    font: 24px "Arial Narrow",Arial,sans-serif;
+}
+
 .box-product .name a {
-	color: #b44;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
 	margin-bottom: 4px;
+    font: bold 12px/18px Tahoma,sans-serif;
+    color: #ffe672;
 }
-.box-product .price {
-	display: block;
-	font-weight: bold;
-	color: #333333;
-	margin-bottom: 4px;
-}
+
 .box-product .price-old {
 	color: #F00;
 	text-decoration: line-through;
@@ -812,6 +838,11 @@ a.button:hover, input.button:hover {
     background: #3f0003 url(../image/content-bg.jpg) left bottom no-repeat;
     padding: 0 0 15px;
     margin-top: -15px;
+}
+
+#content {
+    background: url(../image/content-transparent20.png) 0 0 repeat;
+    padding: 10px;
 }
 
 #content .content {
@@ -1344,6 +1375,37 @@ a.button:hover, input.button:hover {
 .login-content .left .content, .login-content .right .content {
 	min-height: 190px;
 }
+
+#module_login {
+    margin: 10px;
+}
+
+.login-block {
+    font-size: 12px;
+}
+
+span.username span, span.password span {
+    width: 50px;
+    float: left;
+}
+
+span.username input, span.password input {
+    padding: 0px;
+    width: 130px;
+    border: none;
+    outline: none;
+    color: #646464;
+    font-size: 11px;
+}
+
+span.username input:hover,span.password input:hover, span.username input:focus, span.password input:focus {
+    color: #000000;
+}
+
+a.button:hover, input.button:hover {
+    background: url('../image/button-active.png') repeat-x;
+}
+
 /* orders */
 .order-list {
 	margin-bottom: 10px;
@@ -1636,7 +1698,7 @@ a.button:hover, input.button:hover {
 	float: left;
 	width: 48%;
 }
-/* footer */ 
+/* footer */
 #footer {
 	clear: both;
     background: url(../image/actions-bar-bg.jpg) 0 0 no-repeat;

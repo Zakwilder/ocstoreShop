@@ -2,125 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ac70e-4c61-4291-be5a-ea14f26a7703" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.country.1374764461" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.currency.1374766217" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.currency.1374853321" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.information.1.1374764461" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.language.1374767494" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.language.1374852533" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.length_class.1.1374764461" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.order_status.1.1374764461" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.1.0.1.74d81b5e75d650d3a15bd8d19db874f0.1374764214" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.0a371347b1011796903284e71f958cba.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.0a371347b1011796903284e71f958cba.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.1599eecdc8d2d48314fe005089070776.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.1599eecdc8d2d48314fe005089070776.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.16df6c44f02e34db20c020b17d96438c.1374767494" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.16df6c44f02e34db20c020b17d96438c.1374852533" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.192ba429f7e06edfbd73d7de3b573da6.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.192ba429f7e06edfbd73d7de3b573da6.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.1cbe8dc6c089072bcde4d8fc5fca33a4.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.1cbe8dc6c089072bcde4d8fc5fca33a4.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.25fcd55826fe64f80751af55b8c6f13c.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.25fcd55826fe64f80751af55b8c6f13c.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.2acb98e6e4802937ab3dc710ebd2742a.1374768111" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.3bdc49cb8bcfa363d89a82c7ba32212e.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.3bdc49cb8bcfa363d89a82c7ba32212e.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.512022accdec061982311bce7dab7109.1374768111" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.5218575066c4a59f73fc5a6fdc5d2fc2.1374768111" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.55167820a34b43e58b455e0f60695df2.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.55167820a34b43e58b455e0f60695df2.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.6ad6560ef1ef9a99610ef08e0223ca9c.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.6ad6560ef1ef9a99610ef08e0223ca9c.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.6b9c448b1db0ad3ccbdb7e4ca380653e.1374768111" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.6f15a4ed8b0441ca3e9d364ad43cb1f7.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.6f15a4ed8b0441ca3e9d364ad43cb1f7.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.70e6e2f5851701117f1079841ca5c4a2.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.70e6e2f5851701117f1079841ca5c4a2.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.74d81b5e75d650d3a15bd8d19db874f0.1374764214" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.78576b5391e0a8e3a5cb9ead56286d40.1374768111" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.8c39daeeb7ef230cb9f22a43f980bb35.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.8c39daeeb7ef230cb9f22a43f980bb35.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.92520377630dbd18e58d26f283fb54db.1374768111" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.92520377630dbd18e58d26f283fb54db.1374828591" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.991aae47cfd3720ba3f382d1d63ca434.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.991aae47cfd3720ba3f382d1d63ca434.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.9c9102272b7f245ccb22d4aa9b3f1d74.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.9c9102272b7f245ccb22d4aa9b3f1d74.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.a9e27a70c328a0d90f7656d8a395820f.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.a9e27a70c328a0d90f7656d8a395820f.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.afe15cc065ff348d12e5dcbb6f0befd0.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.afe15cc065ff348d12e5dcbb6f0befd0.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.ba3885e71fe0adaf87100c67d01a9674.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.ba3885e71fe0adaf87100c67d01a9674.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.ba67948454ab33655f7e8d0c291a32e8.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.ba67948454ab33655f7e8d0c291a32e8.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.c0c27a23037299161c30d42bbc5f5906.1374768111" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.c0c27a23037299161c30d42bbc5f5906.1374828591" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.cd62172ddfa1609f01d4218c547e4738.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.cd62172ddfa1609f01d4218c547e4738.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.dc7b48086219d04d61cec21531578c73.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.dc7b48086219d04d61cec21531578c73.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.dc8c05247bc84955c3cb6b7c5a06d58c.1374768111" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.dd1a30898640eee130bde6df350a3698.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.dd1a30898640eee130bde6df350a3698.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.e453219c5e4f4154596995d42ee2c9f7.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.e453219c5e4f4154596995d42ee2c9f7.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.e61b0814b278bbf20fa9357e2e40d444.1374767494" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.e61b0814b278bbf20fa9357e2e40d444.1374852533" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.eddd5d738f62049e474030effb675cb7.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.eddd5d738f62049e474030effb675cb7.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.f1cd4cb68c73185eee1c2ec8149d10d5.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.f1cd4cb68c73185eee1c2ec8149d10d5.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.f1f39030c2b0aa4d5bf804977a6dc3f5.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.f1f39030c2b0aa4d5bf804977a6dc3f5.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.f82dacd44910c73f83a317711de2fe9f.1374768126" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.1.0.1.f82dacd44910c73f83a317711de2fe9f.1374854481" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.0a371347b1011796903284e71f958cba.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.1599eecdc8d2d48314fe005089070776.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.16df6c44f02e34db20c020b17d96438c.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.192ba429f7e06edfbd73d7de3b573da6.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.1cbe8dc6c089072bcde4d8fc5fca33a4.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.25fcd55826fe64f80751af55b8c6f13c.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.3bdc49cb8bcfa363d89a82c7ba32212e.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.55167820a34b43e58b455e0f60695df2.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.6ad6560ef1ef9a99610ef08e0223ca9c.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.6f15a4ed8b0441ca3e9d364ad43cb1f7.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.70e6e2f5851701117f1079841ca5c4a2.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.8c39daeeb7ef230cb9f22a43f980bb35.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.991aae47cfd3720ba3f382d1d63ca434.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.9c9102272b7f245ccb22d4aa9b3f1d74.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.a9e27a70c328a0d90f7656d8a395820f.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.afe15cc065ff348d12e5dcbb6f0befd0.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.ba3885e71fe0adaf87100c67d01a9674.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.ba67948454ab33655f7e8d0c291a32e8.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.cd62172ddfa1609f01d4218c547e4738.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.dc7b48086219d04d61cec21531578c73.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.dd1a30898640eee130bde6df350a3698.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.e453219c5e4f4154596995d42ee2c9f7.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.e61b0814b278bbf20fa9357e2e40d444.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.eddd5d738f62049e474030effb675cb7.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.f1cd4cb68c73185eee1c2ec8149d10d5.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.f1f39030c2b0aa4d5bf804977a6dc3f5.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.total.2.0.1.f82dacd44910c73f83a317711de2fe9f.1374763897" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.return_status.1.1374764461" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.stock_status.1.1374764461" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1374767237" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1374853035" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1374855820" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.weight_class.1.1374764461" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.zone.176.1374764461" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/module/banner.php" afterPath="$PROJECT_DIR$/admin/controller/module/banner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/english/module/banner.php" afterPath="$PROJECT_DIR$/admin/language/english/module/banner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/russian/module/banner.php" afterPath="$PROJECT_DIR$/admin/language/russian/module/banner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/module/banner.tpl" afterPath="$PROJECT_DIR$/admin/view/template/module/banner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/image/icon_user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/we_menu.tpl" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ocstore\.htaccess.txt" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/catalog/category.php" afterPath="$PROJECT_DIR$/admin/model/catalog/category.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/logs/error.txt" afterPath="$PROJECT_DIR$/system/logs/error.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/footer.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/footer.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/english/common/header.php" afterPath="$PROJECT_DIR$/catalog/language/english/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/common/header.php" afterPath="$PROJECT_DIR$/catalog/language/russian/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/home.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/home.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/catalog/manufacturer.php" afterPath="$PROJECT_DIR$/admin/model/catalog/manufacturer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/catalog/product.php" afterPath="$PROJECT_DIR$/admin/model/catalog/product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/seo_pro.php" afterPath="$PROJECT_DIR$/catalog/controller/common/seo_pro.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -128,17 +20,20 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
     <file path="/header.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375103299906" ignored="false" />
-    <file path="/stylesheet.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375102034326" ignored="false" />
-    <file path="/Dummy.txt" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375083871503" ignored="false" />
+    <file path="/stylesheet.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375260591744" ignored="false" />
+    <file path="/Dummy.txt" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375259257303" ignored="false" />
     <file path="/cart.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1374850809343" ignored="false" />
     <file path="/home.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375085349643" ignored="false" />
     <file path="/footer.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375085745118" ignored="false" />
     <file path="/slideshow.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375087963962" ignored="false" />
-    <file path="/a.dummy" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375089794009" ignored="false" />
+    <file path="/a.dummy" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375107432481" ignored="false" />
     <file path="/slideshow.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375090031715" ignored="false" />
     <file path="/header.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375102960713" ignored="false" />
     <file path="/slideshow.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375091155426" ignored="false" />
     <file path="/banner.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375091700019" ignored="false" />
+    <file path="/login.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375181554814" ignored="false" />
+    <file path="/productall.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375187594273" ignored="false" />
+    <file path="/.htaccess" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375262469293" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,37 +53,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="72" selection-start="4492" selection-end="4492" vertical-scroll-proportion="-20.26923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="stylesheet.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="403" column="14" selection-start="7689" selection-end="7689" vertical-scroll-proportion="-16.04">
+            <state line="620" column="0" selection-start="12321" selection-end="12321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.tpl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl">
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="79" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.49822906">
+            <state line="21" column="21" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1375103316142" expanded="true" signature="2752:2794" placeholder="..." />
+                <marker date="1375262469516" expanded="true" signature="314:391" placeholder="&lt;FilesMatch &quot;\.(tpl|ini|log)&quot;&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="information.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/information/information.php">
+      <file leaf-file-name="seo_pro.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/common/seo_pro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.1489105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="we_menu.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/we_menu.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="we_menu.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/module/we_menu.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -196,37 +100,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/language/english/common/header.php">
+      <file leaf-file-name="account.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/account.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="606" selection-end="606" vertical-scroll-proportion="-7.8461537">
+            <state line="19" column="29" selection-start="1223" selection-end="1223" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/language/russian/common/header.php">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="589" selection-end="589" vertical-scroll-proportion="-7.8461537">
+            <state line="89" column="69" selection-start="4335" selection-end="4335" vertical-scroll-proportion="-14.769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/home.tpl">
+      <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="29.423077">
+              <folding>
+                <marker date="1374761660690" expanded="true" signature="2623:2665" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productall.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="24" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/view/template/module/banner.tpl">
+      <file leaf-file-name="productall.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/product/productall.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="71" selection-start="7877" selection-end="7877" vertical-scroll-proportion="-17.692308">
+            <state line="134" column="112" selection-start="4961" selection-end="4961" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -250,22 +165,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/controller/module/carousel.php" />
-        <option value="$PROJECT_DIR$/admin/language/russian/module/carousel.php" />
-        <option value="$PROJECT_DIR$/admin/language/english/module/carousel.php" />
-        <option value="$PROJECT_DIR$/admin/view/template/module/carousel.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/slideshow.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/slideshow.css" />
         <option value="$PROJECT_DIR$/admin/controller/module/banner.php" />
         <option value="$PROJECT_DIR$/admin/language/english/module/banner.php" />
         <option value="$PROJECT_DIR$/admin/language/russian/module/banner.php" />
         <option value="$PROJECT_DIR$/admin/view/template/module/banner.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/login.tpl" />
         <option value="$PROJECT_DIR$/catalog/language/english/common/header.php" />
         <option value="$PROJECT_DIR$/catalog/language/russian/common/header.php" />
-        <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
+        <option value="$PROJECT_DIR$/catalog/language/russian/module/login.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/login.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/productall.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/seo_pro.php" />
       </list>
     </option>
   </component>
@@ -302,6 +217,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,6 +233,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,6 +345,134 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,7 +570,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="module" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,7 +604,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -641,6 +717,28 @@
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -722,9 +820,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -733,8 +870,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -748,6 +885,11 @@
     </servers>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\module" />
+      <recent name="C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\image" />
+      <recent name="C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\product" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ocstore\image\data" />
     </key>
@@ -755,6 +897,9 @@
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -786,19 +931,22 @@
       <created>1374760091434</created>
       <updated>1374760091434</updated>
     </task>
+    <task id="LOCAL-00001" summary="Main page design">
+      <created>1375103383679</created>
+      <updated>1375103383679</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1547492" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15955175" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -807,6 +955,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -854,7 +1004,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main page design" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -868,122 +1018,123 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Main page design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/slideshow.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="554" selection-end="554" vertical-scroll-proportion="-7.1923075">
-          <folding>
-            <marker date="1375091812406" expanded="true" signature="-1:-1" placeholder="{&quot;effect&quot;: 'fade'...}" />
-          </folding>
+        <state line="10" column="53" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/banner.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/product/productall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/login.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="15" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/productall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="112" selection-start="4961" selection-end="4961" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/special.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/template/module/banner.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/account.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="71" selection-start="7877" selection-end="7877" vertical-scroll-proportion="-17.692308">
+        <state line="19" column="29" selection-start="1223" selection-end="1223" vertical-scroll-proportion="-12.423077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/module/banner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="201" selection-end="278" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/home.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/column_left.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/search.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/we_menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="30" selection-start="9995" selection-end="9995" vertical-scroll-proportion="4.713075">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/image/button-search.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/we_menu.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="14" selection-start="7689" selection-end="7689" vertical-scroll-proportion="-16.04">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/language/english/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.37046006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/information/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/login.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="32" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.9031877">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/information/information.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/english/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="606" selection-end="606" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/russian/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="589" selection-end="589" vertical-scroll-proportion="-7.8461537">
+        <state line="620" column="0" selection-start="12321" selection-end="12321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="72" selection-start="4492" selection-end="4492" vertical-scroll-proportion="-20.26923">
+        <state line="89" column="69" selection-start="4335" selection-end="4335" vertical-scroll-proportion="-14.769231">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="79" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.49822906">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="29.423077">
           <folding>
-            <marker date="1375103316142" expanded="true" signature="2752:2794" placeholder="..." />
+            <marker date="1374761660690" expanded="true" signature="2623:2665" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/seo_url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6273063">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="21" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1375262469516" expanded="true" signature="314:391" placeholder="&lt;FilesMatch &quot;\.(tpl|ini|log)&quot;&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/seo_pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.1489105">
+          <folding />
         </state>
       </provider>
     </entry>

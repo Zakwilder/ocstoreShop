@@ -46,3 +46,12 @@
 2013-07-29 15:01:34 - PHP Notice:  Undefined variable: text_product in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 68
 2013-07-29 15:02:08 - PHP Notice:  Undefined variable: text_product in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 68
 2013-07-29 15:03:19 - PHP Notice:  Undefined variable: text_product in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 68
+2013-07-30 11:52:11 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\controller\module\we_menu.php on line 30
+2013-07-30 11:52:11 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\controller\module\we_menu.php on line 30
+2013-07-30 11:52:11 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\controller\module\we_menu.php on line 30
+2013-07-30 11:52:16 - PHP Warning:  strpos(): Empty delimiter in C:\xampp\htdocs\ocstore\catalog\view\theme\default\template\module\we_menu.tpl on line 4
+2013-07-30 11:52:16 - PHP Warning:  strpos(): Empty delimiter in C:\xampp\htdocs\ocstore\catalog\view\theme\default\template\module\we_menu.tpl on line 4
+2013-07-30 11:52:30 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\view\template\module\we_menu.tpl on line 76
+2013-07-30 11:52:30 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\view\template\module\we_menu.tpl on line 76
+2013-07-30 11:52:30 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\view\template\module\we_menu.tpl on line 76
+2013-07-30 11:52:30 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\view\template\module\we_menu.tpl on line 76
