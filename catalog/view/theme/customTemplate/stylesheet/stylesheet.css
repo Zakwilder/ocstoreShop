@@ -793,6 +793,14 @@ a.button:hover, input.button:hover {
 	display: block;
 	margin-bottom: 4px;
 }
+
+.cart a.buttonbuy {
+    display: block;
+    width: 120px;
+    height: 37px;
+    background: url("../image/bt-buy.png") 0 0 no-repeat;
+    font-size: 0;
+}
 /* box category */
 .box-category {
 	margin-top: -5px;
