@@ -65,6 +65,16 @@ class ControllerCommonColumnLeft extends Controller {
     	}
 		
 		array_multisort($sort_order, SORT_ASC, $module_data);
+
+		$this->data['text_home'] = $this->language->get('text_home');
+		$this->data['text_product'] = $this->language->get('text_product');
+		$this->data['text_contact'] = $this->language->get('text_contact');
+		$this->data['text_about'] = $this->language->get('text_about');
+
+		$this->data['home'] = $this->url->link('common/home');
+		$this->data['product'] = $this->url->link('product/productall', '', 'SSL');
+		$this->data['contact'] = $this->url->link('information/contact', '', 'SSL');
+		$this->data['about'] = $this->url->link('information/information', 'information_id=4', 'SSL');
 		
 		$this->data['modules'] = array();
 		

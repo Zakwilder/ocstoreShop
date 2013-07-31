@@ -1,3 +1,4 @@
+<?php if ($this->customer->isLogged()) { ?>
 <div class="box">
   <div class="box-heading"><?php echo $heading_title; ?></div>
   <div class="box-content">
@@ -23,3 +24,4 @@
     </ul>
   </div>
 </div>
+<?php } ?>
