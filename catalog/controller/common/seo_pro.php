@@ -112,7 +112,7 @@ class ControllerCommonSeoPro extends Controller {
 				break;
 
 			case 'common/home':
-				return trim($seo_url, '//');
+				return $link;
 				break;
 
 			default:
