@@ -1,4 +1,7 @@
 <?php
+//Heading
+$_['heading_title']          = 'Все товары';
+
 // Text
 $_['text_heading_title']= 'Все товары магазина';
 $_['text_refine']       = 'Уточнить поиск';

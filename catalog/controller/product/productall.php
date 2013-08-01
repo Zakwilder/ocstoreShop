@@ -32,7 +32,8 @@ class ControllerProductProductall extends Controller {
 		} else {
 			$limit = $this->config->get('config_catalog_limit');
 		}
-					
+
+		$this->document->setTitle($this->language->get('heading_title'));
 		$this->data['breadcrumbs'] = array();
 
    		$this->data['breadcrumbs'][] = array(
