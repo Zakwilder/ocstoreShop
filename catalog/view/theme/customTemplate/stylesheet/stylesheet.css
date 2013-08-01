@@ -571,11 +571,9 @@ table.radio tr.highlight:hover td {
 	cursor: pointer;
 }
 .pagination {
-	border-top: 1px solid #EEEEEE;
-	padding-top: 8px;
-	display: inline-block;
-	width: 100%;
-	margin-bottom: 10px;
+    border-top: 1px solid #fff;
+    padding-top: 8px;
+    margin: 0 15px 10px 15px;
 }
 .pagination .links {
 	float: left;
@@ -718,7 +716,7 @@ a.button:hover, input.button:hover {
 .box {
 
 }
-.box .box-heading {
+.box .box-heading, .content-heading {
     border-bottom: 1px solid #b38667;
     text-align: center;
     font: bold 20px/30px "Century Gothic",Helvetica,sans-serif;
@@ -1023,13 +1021,18 @@ a.button:hover, input.button:hover {
 .product-grid {
 	width: 100%;
 	overflow: auto;
+    background: url(../image/content-transparent15.png) 0 0 repeat;
+    margin: 10px;
+    border: 1px solid #c7868f;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 .product-grid > div {
 	width: 130px;
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 20px;
-	margin-bottom: 15px;
+    margin: 10px;
 }
 #column-left + #column-right + #content .product-grid > div {
 	width: 125px;
@@ -1039,11 +1042,11 @@ a.button:hover, input.button:hover {
 	margin-bottom: 0px;
 }
 .product-grid .image img {
-	padding: 3px;
-	border: 1px solid #E7E7E7;
+    border: 1px solid #eadab0;
 }
 .product-grid .name a {
-	color: #b44;
+    font: bold 12px/18px Tahoma,sans-serif;
+    color: #ffe672;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
@@ -1057,9 +1060,9 @@ a.button:hover, input.button:hover {
 	margin-bottom: 4px;
 }
 .product-grid .price {
+    color: #ffe672;
+    font: 24px "Arial Narrow",Arial,sans-serif;
 	display: block;
-	font-weight: bold;
-	color: #333333;
 	margin-bottom: 4px;
 }
 .product-grid .price-old {

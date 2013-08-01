@@ -90,13 +90,13 @@ DD_belatedPNG.fix('#logo img');
     <?php } ?>
 </div>
 <div id="filter">
-    <div id="search">
+    <!--<div id="search">
         <div class="button-search"></div>
         <?php if ($filter_name) { ?>
         <input type="text" name="filter_name" value="<?php echo $filter_name; ?>" />
         <?php } else { ?>
         <input type="text" name="filter_name" value="<?php echo $text_search; ?>" onclick="this.value = '';" onkeydown="this.style.color = '#000000';" />
         <?php } ?>
-    </div>
+    </div>-->
 </div>
 <div id="notification"></div>
