@@ -67,7 +67,7 @@ class ControllerCommonColumnLeft extends Controller {
 		array_multisort($sort_order, SORT_ASC, $module_data);
 
 		$this->data['text_home'] = $this->language->get('text_home');
-		$this->data['text_product'] = $this->language->get('text_product');
+		$this->data['text_products'] = $this->language->get('text_products');
 		$this->data['text_contact'] = $this->language->get('text_contact');
 		$this->data['text_about'] = $this->language->get('text_about');
 

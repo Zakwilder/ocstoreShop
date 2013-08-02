@@ -17,7 +17,7 @@ $_['text_select']           = ' --- Выберите --- ';
 $_['text_all_zones']        = 'Все зоны';
 $_['text_pagination']       = 'Показано с {start} по {end} из {total} (всего {pages} страниц)';
 $_['text_separator']        = ' &raquo; ';
-$_['text_product']        = 'Продукты';
+$_['text_products']        = 'Продукты';
 $_['text_contact']        = 'Контакты';
 $_['text_about']          = 'О нас';
 

@@ -55,3 +55,4 @@
 2013-07-30 11:52:30 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\view\template\module\we_menu.tpl on line 76
 2013-07-30 11:52:30 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\view\template\module\we_menu.tpl on line 76
 2013-07-30 11:52:30 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\view\template\module\we_menu.tpl on line 76
+2013-08-02 12:47:07 - PHP Notice:  Undefined variable: text_products in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\column_left.tpl on line 11

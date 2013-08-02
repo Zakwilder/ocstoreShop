@@ -10,13 +10,13 @@ body, td, th, input, textarea, select, a {
 	font-size: 12px;
 }
 h1, .welcome {
-	color: #636E75;
-	font-family: Verdana;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	font-size: 32px;
-	font-weight: normal;
-	text-shadow: 0 0 1px rgba(0, 0, 0, .01);
+    width: 100%;
+    border-bottom: 1px solid #b38667;
+    text-align: center;
+    font: bold 20px/30px "Century Gothic",Helvetica,sans-serif;
+    color: #efbd5d;
+    margin: 0;
+    padding: 4px 0;
 }
 h2 {
 	color: #000000;

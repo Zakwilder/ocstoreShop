@@ -8,7 +8,7 @@
                 <a href="<?php echo $about; ?>"><?php echo $text_about; ?></a>
             </li>
             <li>
-                <a href="<?php echo $product; ?>" id="product"><?php echo $text_product; ?></a>
+                <a href="<?php echo $product; ?>" id="product"><?php echo $text_products; ?></a>
             </li>
             <li>
                 <a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a>

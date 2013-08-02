@@ -112,6 +112,7 @@ class ControllerCommonSeoPro extends Controller {
 				break;
 
 			case 'common/home':
+				$link = str_replace('index.php?route=common/home', '', $link);
 				return $link;
 				break;
 
