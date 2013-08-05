@@ -16,7 +16,7 @@
             <p align="right" style="margin:5px 0;">
                 <a onclick="$('#module_login').submit();" class="button"><span><?php echo $button_login; ?></span></a>
             </p>
-            <a href="<?php echo $this->url->link('account/login', '', 'SSL');?>"><span><?php echo $button_create; ?></span></a>
+            <a href="<?php echo $this->url->link('account/register', '', 'SSL');?>"><span><?php echo $button_create; ?></span></a>
         </span>
     </form>
   </div>

@@ -16,21 +16,16 @@
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.product.seopath.1375278423" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1375267602" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1375278860" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/account.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/account.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/account.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/account.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/banner.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/banner.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/category.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/category.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/footer.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/footer.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/login.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/login.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/register.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/register.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
     </list>
     <ignored path="ocstore.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
     <ignored path="system/cache/" />
     <file path="/header.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375366354388" ignored="false" />
-    <file path="/stylesheet.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375367236294" ignored="false" />
+    <file path="/stylesheet.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375706803640" ignored="false" />
     <file path="/Dummy.txt" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375696801672" ignored="false" />
     <file path="/cart.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375370187098" ignored="false" />
     <file path="/home.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375085349643" ignored="false" />
@@ -41,7 +36,7 @@
     <file path="/header.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375102960713" ignored="false" />
     <file path="/slideshow.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375091155426" ignored="false" />
     <file path="/banner.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375091700019" ignored="false" />
-    <file path="/login.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375181554814" ignored="false" />
+    <file path="/login.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375705612301" ignored="false" />
     <file path="/productall.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375367731429" ignored="false" />
     <file path="/.htaccess" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375262469293" ignored="false" />
     <file path="/account.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375370769063" ignored="false" />
@@ -57,6 +52,7 @@
     <file path="/success.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375370562212" ignored="false" />
     <file path="$PROJECT_DIR$/../knockout/js/FriendModel.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375450372196" ignored="false" />
     <file path="/FriendModel.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375450225851" ignored="false" />
+    <file path="/register.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375705950585" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,70 +72,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="footer.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/footer.tpl">
+      <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/category.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="86" selection-start="6654" selection-end="6654" vertical-scroll-proportion="-18.307692">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="207" column="91" selection-start="10742" selection-end="10742" vertical-scroll-proportion="-13.076923">
+            <state line="56" column="13" selection-start="2870" selection-end="2870" vertical-scroll-proportion="-36.615383">
               <folding>
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#3;n#div#2;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <marker date="1375697811073" expanded="false" signature="16923:16937" placeholder="..." />
-                <marker date="1375697811073" expanded="false" signature="17846:17864" placeholder="..." />
+                <marker date="1375366357664" expanded="true" signature="2752:2794" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productall.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl">
+      <file leaf-file-name="login.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/login.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="165" selection-start="2894" selection-end="2894" vertical-scroll-proportion="-35.307693">
+            <state line="18" column="66" selection-start="939" selection-end="939" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/account.tpl">
+      <file leaf-file-name="register.tpl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/register.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-17.0">
-              <folding />
+            <state line="13" column="20" selection-start="615" selection-end="615" vertical-scroll-proportion="0.264988">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#1;n#table#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner.tpl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/banner.tpl">
+      <file leaf-file-name="stylesheet.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="88" selection-start="382" selection-end="382" vertical-scroll-proportion="0.100354195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/account.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="77" selection-start="895" selection-end="895" vertical-scroll-proportion="-9.807693">
+            <state line="87" column="26" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,15 +131,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/return_list.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/reward.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/transaction.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/voucher.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/wishlist.tpl" />
         <option value="$PROJECT_DIR$/catalog/language/russian/russian.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/column_left.tpl" />
         <option value="$PROJECT_DIR$/catalog/controller/common/column_left.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/footer.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/account.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/account.tpl" />
@@ -179,6 +144,9 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/banner.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/login.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/register.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -791,11 +759,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/wishlist.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="557" selection-end="557" vertical-scroll-proportion="-6.5384617" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/language/russian/account/return.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -821,13 +784,6 @@
         <state line="68" column="35" selection-start="2066" selection-end="2066" vertical-scroll-proportion="-13.076923" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="529" selection-end="529" vertical-scroll-proportion="0.5647194">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -835,25 +791,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/login.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.060212515">
-          <folding>
-            <marker date="1375366357664" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/account.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="77" selection-start="895" selection-end="895" vertical-scroll-proportion="-9.807693">
+        <state line="15" column="77" selection-start="895" selection-end="895" vertical-scroll-proportion="0.30106258">
           <folding />
         </state>
       </provider>
@@ -872,8 +812,8 @@
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#3;n#div#2;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#5;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <marker date="1375697811073" expanded="false" signature="16923:16937" placeholder="..." />
-            <marker date="1375697811073" expanded="false" signature="17846:17864" placeholder="..." />
+            <marker date="1375697811073" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1375697811073" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -894,8 +834,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/banner.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="88" selection-start="382" selection-end="382" vertical-scroll-proportion="0.100354195">
+        <state line="9" column="35" selection-start="459" selection-end="459" vertical-scroll-proportion="0.18063754">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="13" selection-start="2870" selection-end="2870" vertical-scroll-proportion="-36.615383">
+          <folding>
+            <marker date="1375366357664" expanded="true" signature="2752:2794" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/login.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="66" selection-start="939" selection-end="939" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="26" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/account/register.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="615" selection-end="615" vertical-scroll-proportion="0.264988">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#table#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
