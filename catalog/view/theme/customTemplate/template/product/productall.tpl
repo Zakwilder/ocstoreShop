@@ -13,7 +13,6 @@
       <?php if ($products) { ?>
       <div style="padding: 15px">
           <div class="product-filter">
-            <!--<div class="display"><b><?php echo $text_display; ?></b> <?php echo $text_list; ?> <b>/</b> <a onclick="display('grid');"><?php echo $text_grid; ?></a></div>-->
             <div class="limit"><b style="color: #fff;"><?php echo $text_limit; ?></b>
               <select onchange="location = this.value;">
                 <?php foreach ($limits as $limits) { ?>
@@ -25,17 +24,6 @@
                 <?php } ?>
               </select>
             </div>
-            <!--<div class="sort"><b><?php echo $text_sort; ?></b>
-              <select onchange="location = this.value;">
-                <?php foreach ($sorts as $sorts) { ?>
-                <?php if ($sorts['value'] == $sort . '-' . $order) { ?>
-                <option value="<?php echo $sorts['href']; ?>" selected="selected"><?php echo $sorts['text']; ?></option>
-                <?php } else { ?>
-                <option value="<?php echo $sorts['href']; ?>"><?php echo $sorts['text']; ?></option>
-                <?php } ?>
-                <?php } ?>
-              </select>
-            </div>-->
           </div>
 
           <div class="product-list">
@@ -65,8 +53,6 @@
               <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
               <?php } ?>
               <div class="cart"><a onclick="addToCart('<?php echo $product['product_id']; ?>');" class="buttonbuy"><span><?php echo $button_cart; ?></span></a></div>
-              <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><?php echo $button_wishlist; ?></a></div>
-              <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><?php echo $button_compare; ?></a></div>
             </div>
             <?php } ?>
           </div>
@@ -90,8 +76,6 @@ function display(view) {
 		$('.product-list > div').each(function(index, element) {
 			html  = '<div class="right">';
 			html += '  <div class="cart">' + $(element).find('.cart').html() + '</div>';
-			html += '  <div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
-			html += '  <div class="compare">' + $(element).find('.compare').html() + '</div>';
 			html += '</div>';			
 			
 			html += '<div class="left">';
