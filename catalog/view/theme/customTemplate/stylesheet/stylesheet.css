@@ -2,10 +2,8 @@ html, body {
     padding: 0;
     margin: 0;
     background: #730409;
-    color: #373737;
-    font: 17px Garamond, serif;
-    font-weight: 300;
-    line-height: 23px;
+    color: #fff;
+    font-family: Tahoma,sans-serif;
 }
 
 body, td, th, input, textarea, select, a {
