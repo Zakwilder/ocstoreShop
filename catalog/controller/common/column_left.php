@@ -40,14 +40,17 @@ class ControllerCommonColumnLeft extends Controller {
 		
 		$this->load->model('setting/extension');
 		
-		$extensions = $this->model_setting_extension->getExtensions('module');		
+		$extensions = $this->model_setting_extension->getExtensions('module');
+
+
 		
 		foreach ($extensions as $extension) {
 			$modules = $this->config->get($extension['code'] . '_module');
+
 		
 			if ($modules) {
 				foreach ($modules as $module) {
-					if ($module['layout_id'] == $layout_id && $module['position'] == 'column_left' && $module['status']) {
+					if (($module['layout_id'] == $layout_id || $module['layout_id']==13) && $module['position'] == 'column_left' && $module['status']) {
 						$module_data[] = array(
 							'code'       => $extension['code'],
 							'setting'    => $module,
@@ -57,6 +60,8 @@ class ControllerCommonColumnLeft extends Controller {
 				}
 			}
 		}
+
+		
 		
 		$sort_order = array(); 
 	  
@@ -77,7 +82,7 @@ class ControllerCommonColumnLeft extends Controller {
 		$this->data['about'] = $this->url->link('information/information', 'information_id=4', 'SSL');
 		
 		$this->data['modules'] = array();
-		
+
 		foreach ($module_data as $module) {
 			$module = $this->getChild('module/' . $module['code'], $module['setting']);
 			

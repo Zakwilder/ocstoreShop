@@ -33,7 +33,7 @@
           <?php foreach ($languages as $language) { ?>
           <div id="tab-language-<?php echo $module_row; ?>-<?php echo $language['language_id']; ?>">
             <table class="form">
-              <tr>
+              <!--<tr>
                 <td><?php echo $entry_startdate; ?> </td>
               <td>
 				<input name="page_content_module[<?php echo $module_row; ?>][startdate][<?php echo $language['language_id']; ?>]" id="startdate-<?php echo $module_row; ?>-<?php echo $language['language_id']; ?>"value="<?php echo isset($module['startdate'][$language['language_id']]) ? $module['startdate'][$language['language_id']] : ''; ?>"</input>
@@ -46,10 +46,10 @@
 				<input name="page_content_module[<?php echo $module_row; ?>][enddate][<?php echo $language['language_id']; ?>]" id="enddate-<?php echo $module_row; ?>-<?php echo $language['language_id']; ?>"value="<?php echo isset($module['enddate'][$language['language_id']]) ? $module['enddate'][$language['language_id']] : ''; ?>"</input>
 				<?php echo $text_date_instructions; ?>
 			  </td>
-              </tr>
+              </tr>-->
               <tr>
                 <td><?php echo $entry_title; ?></td>
-                <td><textarea name="page_content_module[<?php echo $module_row; ?>][title][<?php echo $language['language_id']; ?>]" id="title-<?php echo $module_row; ?>-<?php echo $language['language_id']; ?>"><?php echo isset($module['title'][$language['language_id']]) ? $module['title'][$language['language_id']] : ''; ?></textarea></td>
+                <td><input type="text" name="page_content_module[<?php echo $module_row; ?>][title][<?php echo $language['language_id']; ?>]" id="title-<?php echo $module_row; ?>-<?php echo $language['language_id']; ?>" value="<?php echo isset($module['title'][$language['language_id']]) ? $module['title'][$language['language_id']] : ''; ?>"/></td>
               </tr>
               <tr>
                 <td><?php echo $entry_description; ?></td>
@@ -125,13 +125,6 @@
 <?php $module_row = 1; ?>
 <?php foreach ($modules as $module) { ?>
 <?php foreach ($languages as $language) { ?>
-CKEDITOR.replace('title-<?php echo $module_row; ?>-<?php echo $language['language_id']; ?>', {
-	filebrowserImageBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
-	filebrowserFlashBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
-	filebrowserUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
-	filebrowserImageUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
-	filebrowserFlashUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>'
-});
 CKEDITOR.replace('description-<?php echo $module_row; ?>-<?php echo $language['language_id']; ?>', {
 	filebrowserImageBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
 	filebrowserFlashBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
@@ -158,7 +151,7 @@ function addModule() {
 	<?php foreach ($languages as $language) { ?>
 	html += '    <div id="tab-language-'+ module_row + '-<?php echo $language['language_id']; ?>">';
 	html += '      <table class="form">';
-	html += '        <tr>';
+	/*html += '        <tr>';
 	html += '          <td><?php echo $entry_startdate; ?></td>';
 	html += '          <td>';
 	html += '          <input name="page_content_module[' + module_row + '][startdate][<?php echo $language['language_id']; ?>]" id="startdate-' + module_row + '-<?php echo $language['language_id']; ?>"></input>';
@@ -171,10 +164,10 @@ function addModule() {
 	html += '          <input name="page_content_module[' + module_row + '][enddate][<?php echo $language['language_id']; ?>]" id="enddate-' + module_row + '-<?php echo $language['language_id']; ?>"></input>';
 	html += '          <?php echo $text_date_instructions; ?>';
 	html += '          </td>';
-	html += '        </tr>';
+	html += '        </tr>';*/
 	html += '        <tr>';
 	html += '          <td><?php echo $entry_title; ?></td>';
-	html += '          <td><textarea name="page_content_module[' + module_row + '][title][<?php echo $language['language_id']; ?>]" id="title-' + module_row + '-<?php echo $language['language_id']; ?>"></textarea></td>';
+	html += '          <td><input type="text" name="page_content_module[' + module_row + '][title][<?php echo $language['language_id']; ?>]" id="title-' + module_row + '-<?php echo $language['language_id']; ?>"/></td>';
 	html += '        </tr>';
 	html += '        <tr>';
 	html += '          <td><?php echo $entry_description; ?></td>';
@@ -219,13 +212,6 @@ function addModule() {
 	$('#form').append(html);
 	
 	<?php foreach ($languages as $language) { ?>
-	CKEDITOR.replace('title-' + module_row + '-<?php echo $language['language_id']; ?>', {
-		filebrowserImageBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
-		filebrowserFlashBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
-		filebrowserUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
-		filebrowserImageUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
-		filebrowserFlashUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>'
-	}); 
 	CKEDITOR.replace('description-' + module_row + '-<?php echo $language['language_id']; ?>', {
 		filebrowserImageBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
 		filebrowserFlashBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',

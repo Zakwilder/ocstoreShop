@@ -56,3 +56,9 @@
 2013-07-30 11:52:30 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\view\template\module\we_menu.tpl on line 76
 2013-07-30 11:52:30 - PHP Notice:  Undefined index: item_link in C:\xampp\htdocs\ocstore\admin\view\template\module\we_menu.tpl on line 76
 2013-08-02 12:47:07 - PHP Notice:  Undefined variable: text_products in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\column_left.tpl on line 11
+2013-08-27 12:53:33 - PHP Notice:  Undefined index: startdate in C:\xampp\htdocs\ocstore\catalog\controller\module\page_content.php on line 6
+2013-08-27 12:53:33 - PHP Notice:  Undefined index: enddate in C:\xampp\htdocs\ocstore\catalog\controller\module\page_content.php on line 7
+2013-08-27 12:54:11 - PHP Notice:  Undefined variable: enddate in C:\xampp\htdocs\ocstore\catalog\controller\module\page_content.php on line 15
+2013-08-27 12:54:11 - PHP Notice:  Undefined variable: enddate in C:\xampp\htdocs\ocstore\catalog\controller\module\page_content.php on line 24
+2013-08-27 12:54:11 - PHP Notice:  Undefined variable: startdate in C:\xampp\htdocs\ocstore\catalog\controller\module\page_content.php on line 24
+2013-08-27 12:54:11 - PHP Notice:  Undefined variable: enddate in C:\xampp\htdocs\ocstore\catalog\controller\module\page_content.php on line 32

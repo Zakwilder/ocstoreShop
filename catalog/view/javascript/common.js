@@ -83,7 +83,12 @@ $(document).ready(function() {
 		$(this).parent().fadeOut('slow', function() {
 			$(this).remove();
 		});
-	});	
+	});
+
+	var url=document.location.href;
+	$.each($("#navi ul li a"),function(){
+		if(this.href==url){$(this).addClass('active');};
+	});
 });
 
 function getURLVar(urlVarName) {

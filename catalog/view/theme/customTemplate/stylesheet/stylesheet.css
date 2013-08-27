@@ -3,7 +3,9 @@ html, body {
     margin: 0;
     background: #730409;
     color: #fff;
-    font-family: Tahoma,sans-serif;
+    font: 17px Garamond, serif !important;
+    font-weight: 300 !important;
+    line-height: 23px !important;
 }
 
 body, td, th, input, textarea, select, a {
@@ -103,7 +105,7 @@ label {
 }
 
 #filter {
-    height: 59px;
+    /*height: 59px;*/
     padding-left: 30px;
     margin-top: 10px;
 }
@@ -118,12 +120,12 @@ label {
     float: left;
     z-index: 20;
     padding: 6px 5px 5px 0px;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
 }
 #navi > ul > li:hover {
 }
 #navi > ul > li > a.active {
-    background: #000;
+    text-decoration: underline;
 }
 #navi > ul > li > a {
     color: #ffe17a;
@@ -847,7 +849,10 @@ a.button:hover, input.button:hover {
     position: relative;
     background: #3f0003 url(../image/content-bg.jpg) left bottom no-repeat;
     padding: 0 0 15px;
-    margin-top: -15px;
+    /*margin-top: -15px;*/
+    display: table-cell;
+    border-spacing: 15px;
+    width: 1000px;
 }
 
 #content {
@@ -1022,7 +1027,8 @@ a.button:hover, input.button:hover {
 	display: block;
 	background: url('../image/add.png') left 60% no-repeat;
 }
-.product-grid {
+.product-view {
+    padding: 10px;
 	width: 100%;
 	overflow: auto;
     background: url(../image/content-transparent15.png) 0 0 repeat;
@@ -1031,9 +1037,11 @@ a.button:hover, input.button:hover {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    text-align: center;
 }
-.product-grid > div {
-	width: 130px;
+.product-grid > div.product-view {
+	width: 230px;
+    height: 300px;
 	display: inline-block;
 	vertical-align: top;
     margin: 10px;
@@ -1041,14 +1049,17 @@ a.button:hover, input.button:hover {
 #column-left + #column-right + #content .product-grid > div {
 	width: 125px;
 }
-.product-grid .image {
+.product-view .image {
+    text-align: center;
 	display: block;
 	margin-bottom: 0px;
 }
-.product-grid .image img {
+.product-view .image img {
     border: 1px solid #eadab0;
+    width: 200px;
+    height: 200px;
 }
-.product-grid .name a {
+.product-view .name a {
     font: bold 12px/18px Tahoma,sans-serif;
     color: #ffe672;
 	font-weight: bold;
@@ -1056,43 +1067,43 @@ a.button:hover, input.button:hover {
 	display: block;
 	margin-bottom: 4px;
 }
-.product-grid .description {
+.product-view .description {
 	display: none;
 }
-.product-grid .rating {
+.product-view .rating {
 	display: block;
 	margin-bottom: 4px;
 }
-.product-grid .price {
+.product-view .price {
     color: #ffe672;
     font: 24px "Arial Narrow",Arial,sans-serif;
 	display: block;
 	margin-bottom: 4px;
 }
-.product-grid .price-old {
+.product-view .price-old {
 	color: #F00;
 	text-decoration: line-through;
 }
-.product-grid .price-new {
+.product-view .price-new {
 	font-weight: bold;
 }
-.product-grid .price .price-tax {
+.product-view .price .price-tax {
 	display: none;
 }
-.product-grid .cart {
+.product-view .cart {
 	margin-bottom: 3px;
 }
-.product-grid .wishlist, .product-grid .compare {
+.product-view .wishlist, .product-grid .compare {
 	margin-bottom: 3px;
 }
-.product-grid .wishlist a {
+.product-view .wishlist a {
 	color: #333333;
 	text-decoration: none;
 	padding-left: 18px;
 	display: block;
 	background: url('../image/add.png') left center no-repeat;
 }
-.product-grid .compare a {
+.product-view .compare a {
 	color: #333333;
 	text-decoration: none;
 	padding-left: 18px;

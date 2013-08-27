@@ -28,7 +28,7 @@
 
           <div class="product-list">
             <?php foreach ($products as $product) { ?>
-            <div>
+            <div class="product-view">
               <?php if ($product['thumb']) { ?>
               <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" title="<?php echo $product['name']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
               <?php } ?>
@@ -38,6 +38,7 @@
               <div class="description"><?php echo $product['description']; ?></div>
               <?php if ($product['price']) { ?>
               <div class="price">
+                <?php echo $this->language->get('text_price');?>
                 <?php if (!$product['special']) { ?>
                 <?php echo $product['price']; ?>
                 <?php } else { ?>
@@ -52,7 +53,7 @@
               <?php if ($product['rating']) { ?>
               <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
               <?php } ?>
-              <div class="cart"><a onclick="addToCart('<?php echo $product['product_id']; ?>');" class="buttonbuy"><span><?php echo $button_cart; ?></span></a></div>
+              <!--<div class="cart"><a onclick="addToCart('<?php echo $product['product_id']; ?>');" class="buttonbuy"><span><?php echo $button_cart; ?></span></a></div>-->
             </div>
             <?php } ?>
           </div>
@@ -137,7 +138,7 @@ function display(view) {
 				html += '<div class="rating">' + rating + '</div>';
 			}
 						
-			html += '<div class="cart">' + $(element).find('.cart').html() + '</div>';
+			//html += '<div class="cart">' + $(element).find('.cart').html() + '</div>';
 			
 			$(element).html(html);
 		});	
