@@ -61,7 +61,7 @@ class ControllerCommonColumnLeft extends Controller {
 			}
 		}
 
-		
+
 		
 		$sort_order = array(); 
 	  

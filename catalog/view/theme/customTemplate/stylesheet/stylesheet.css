@@ -1775,3 +1775,32 @@ a.button:hover, input.button:hover {
     width: 1000px;
     height: 210px;
 }
+
+.adr {
+    background: url(../image/transparentblack40.png) 0 0 repeat !important;
+    height: 37px;
+    padding: 10px;
+    margin: 18px 0;
+    color: #fff;
+    text-align: center;
+    margin-left: 255px;
+    display: table-cell;
+    width: inherit;
+}
+
+.adr .firstline {
+    font-size: 14px;
+    line-height: 20px;
+}
+.tel, .fax, .mail {
+    color: #c1beb6;
+    font-size: 11px;
+}
+
+.phonenumber, .faxnumber, .mailtext {
+    color: #fff799;
+    font-size: 14px;
+}
+
+
+
