@@ -65,27 +65,32 @@ DD_belatedPNG.fix('#logo img');
         <?php } ?>
     </div>-->
     <ul>
-        <li><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a></li>
-        <li><a href="<?php echo $about; ?>"><?php echo $text_about; ?></a></li>
-        <li><a href="<?php echo $product; ?>" id="product"><?php echo $text_product; ?></a></li>
-        <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+        <li><a href="<?php echo $home; ?>"><?php echo strtoupper($text_home); ?></a></li>
+        <li><a href="<?php echo $about; ?>"><?php echo strtoupper($text_about); ?></a></li>
+        <li><a href="<?php echo $product; ?>" id="product"><?php echo strtoupper($text_product); ?></a></li>
+        <li><a href="<?php echo $contact; ?>"><?php echo strtoupper($text_contact); ?></a></li>
     </ul>
-    <?php echo $cart; ?>
+    <div id="search">
+        <div class="div9">
+            <span><?php echo $text_search;?></span>
+            <?php if ($filter_name) { ?>
+            <input type="text" value="<?php echo $filter_name; ?>" id="filter_keyword" name="filter_name" onclick="this.value = '';" onkeydown="this.style.color = '#fff'" style="color: #fff;"/>
+            <?php } else { ?>
+            <input type="text" value="<?php echo $text_search; ?>" id="filter_keyword" name="filter_name" onclick="this.value = '';" onkeydown="this.style.color = '#fff'" style="color: #fff;" />
+            <?php } ?>
+            <input name="image" type="image" class="button-search" src="catalog/view/theme/customTemplate/image/Spotlight01.png">
+
+        </div>
+
+    </div>
+    <?php //echo $cart; ?>
 </div>
 <div id="header">
   <!--<?php if ($logo) { ?>
   <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
   <?php } ?>
   <?php echo $language; ?>
-  <?php echo $currency; ?>
-  <div id="search">
-    <div class="button-search"></div>
-    <?php if ($filter_name) { ?>
-    <input type="text" name="filter_name" value="<?php echo $filter_name; ?>" />
-    <?php } else { ?>
-    <input type="text" name="filter_name" value="<?php echo $text_search; ?>" onclick="this.value = '';" onkeydown="this.style.color = '#000000';" />
-    <?php } ?>
-  </div>-->
+  <?php echo $currency; ?>-->
     <?php foreach ($modules as $module) { ?>
     <?php echo $module; ?>
     <?php } ?>

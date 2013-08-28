@@ -12,7 +12,7 @@
 
       <?php if ($products) { ?>
       <div style="padding: 15px">
-          <div class="product-filter">
+          <!--<div class="product-filter">
             <div class="limit"><b style="color: #fff;"><?php echo $text_limit; ?></b>
               <select onchange="location = this.value;">
                 <?php foreach ($limits as $limits) { ?>
@@ -24,7 +24,7 @@
                 <?php } ?>
               </select>
             </div>
-          </div>
+          </div>-->
 
           <div class="product-list">
             <?php foreach ($products as $product) { ?>
@@ -57,7 +57,7 @@
             </div>
             <?php } ?>
           </div>
-          <div class="pagination"><?php echo $pagination; ?></div>
+          <!--<div class="pagination"><?php echo $pagination; ?></div>-->
       </div>
       <?php } ?>
       <?php if ( !$products) { ?>
@@ -66,8 +66,9 @@
         <div class="right"><a href="<?php echo $continue; ?>" class="button"><span><?php echo $button_continue; ?></span></a></div>
       </div>
       <?php } ?>
-      <?php echo $content_bottom; ?>
+
     </div>
+    <?php echo $content_bottom; ?>
 </div>
 <script type="text/javascript"><!--
 function display(view) {

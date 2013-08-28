@@ -5,6 +5,16 @@ class ControllerCommonContentBottom extends Controller {
 		$this->load->model('catalog/category');
 		$this->load->model('catalog/product');
 		$this->load->model('catalog/information');
+
+		$this->data['text_address'] = $this->language->get('text_address');
+		$this->data['text_telephone'] = $this->language->get('text_telephone');
+		$this->data['text_fax'] = $this->language->get('text_fax');
+		$this->data['text_email'] = $this->language->get('text_email');
+
+		$this->data['address'] = nl2br($this->config->get('config_address'));
+		$this->data['telephone'] = $this->config->get('config_telephone');
+		$this->data['fax'] = $this->config->get('config_fax');
+		$this->data['email'] = $this->config->get('config_email');
 		
 		if (isset($this->request->get['route'])) {
 			$route = (string)$this->request->get['route'];

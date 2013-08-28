@@ -72,3 +72,12 @@
 2013-08-27 18:24:24 - PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\ocstore\catalog\controller\module\page_content.php on line 10
 2013-08-28 10:24:57 - PHP Notice:  Error: Could not load language module/we_menu! in C:\xampp\htdocs\ocstore\system\library\language.php on line 39
 2013-08-28 10:25:06 - PHP Notice:  Error: Could not load language module/we_menu! in C:\xampp\htdocs\ocstore\system\library\language.php on line 39
+2013-08-28 13:07:38 - PHP Notice:  Undefined variable: address in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\content_bottom.tpl on line 5
+2013-08-28 13:07:38 - PHP Notice:  Undefined variable: telephone in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\content_bottom.tpl on line 11
+2013-08-28 13:07:38 - PHP Notice:  Undefined variable: fax in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\content_bottom.tpl on line 19
+2013-08-28 13:07:38 - PHP Notice:  Undefined variable: email in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\content_bottom.tpl on line 27
+2013-08-28 14:26:55 - PHP Notice:  Undefined variable: keyword in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 83
+2013-08-28 14:26:55 - PHP Notice:  Undefined variable: text_keyword in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 86
+2013-08-28 14:26:55 - PHP Notice:  Undefined variable: button_go in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 89
+2013-08-28 14:31:52 - PHP Notice:  Undefined variable: text_keyword in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 86
+2013-08-28 14:31:58 - PHP Notice:  Undefined variable: text_keyword in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 86

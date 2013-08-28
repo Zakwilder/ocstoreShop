@@ -83,13 +83,13 @@ $(document).ready(function(){
       <li id="extension"><a class="top"><?php echo $text_extension; ?></a>
         <ul>
           <li><a href="<?php echo $module; ?>"><?php echo $text_module; ?></a></li>
-          <li><a href="<?php echo $shipping; ?>"><?php echo $text_shipping; ?></a></li>
+          <!--<li><a href="<?php echo $shipping; ?>"><?php echo $text_shipping; ?></a></li>
           <li><a href="<?php echo $payment; ?>"><?php echo $text_payment; ?></a></li>
-          <li><a href="<?php echo $total; ?>"><?php echo $text_total; ?></a></li>
+          <li><a href="<?php echo $total; ?>"><?php echo $text_total; ?></a></li>-->
           <li><a href="<?php echo $feed; ?>"><?php echo $text_feed; ?></a></li>
         </ul>
       </li>
-      <li id="sale"><a class="top"><?php echo $text_sale; ?></a>
+      <!--<li id="sale"><a class="top"><?php echo $text_sale; ?></a>
         <ul>
           <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
           <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
@@ -110,7 +110,7 @@ $(document).ready(function(){
           </li>
           <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
         </ul>
-      </li>
+      </li>-->
       <li id="system"><a class="top"><?php echo $text_system; ?></a>
         <ul>
           <li><a href="<?php echo $setting; ?>"><?php echo $text_setting; ?></a></li>
@@ -130,7 +130,7 @@ $(document).ready(function(){
             <ul>
               <li><a href="<?php echo $language; ?>"><?php echo $text_language; ?></a></li>
               <li><a href="<?php echo $currency; ?>"><?php echo $text_currency; ?></a></li>
-              <li><a href="<?php echo $stock_status; ?>"><?php echo $text_stock_status; ?></a></li>
+              <!--<li><a href="<?php echo $stock_status; ?>"><?php echo $text_stock_status; ?></a></li>
               <li><a href="<?php echo $order_status; ?>"><?php echo $text_order_status; ?></a></li>
               <li><a class="parent"><?php echo $text_return; ?></a>
                 <ul>
@@ -147,7 +147,7 @@ $(document).ready(function(){
                   <li><a href="<?php echo $tax_class; ?>"><?php echo $text_tax_class; ?></a></li>
                   <li><a href="<?php echo $tax_rate; ?>"><?php echo $text_tax_rate; ?></a></li>
                 </ul>
-              </li>
+              </li>-->
               <li><a href="<?php echo $length_class; ?>"><?php echo $text_length_class; ?></a></li>
               <li><a href="<?php echo $weight_class; ?>"><?php echo $text_weight_class; ?></a></li>
             </ul>
@@ -156,7 +156,7 @@ $(document).ready(function(){
           <li><a href="<?php echo $backup; ?>"><?php echo $text_backup; ?></a></li>
         </ul>
       </li>
-      <li id="reports"><a class="top"><?php echo $text_reports; ?></a>
+      <!--<li id="reports"><a class="top"><?php echo $text_reports; ?></a>
         <ul>
           <li><a class="parent"><?php echo $text_sale; ?></a>
             <ul>
@@ -187,7 +187,7 @@ $(document).ready(function(){
             </ul>
           </li>
         </ul>
-      </li>
+      </li>-->
       <li id="help"><a class="top"><?php echo $text_help; ?></a>
         <ul>
           <li><a onClick="window.open('http://myopencart.ru');"><?php echo $text_opencart; ?></a></li>
