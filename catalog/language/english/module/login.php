@@ -3,7 +3,7 @@
 $_['heading_title']				= 'Login';
 
 // Entry
-$_['entry_email_address']		= 'E-Mail Address:';
+$_['entry_email_address']		= 'E-Mail:';
 $_['entry_password']			= 'Password:';
 
 // Buttons
