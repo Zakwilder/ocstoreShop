@@ -236,7 +236,7 @@ $controller->addPreAction(new Action('common/' . $seo_type));
 if (isset($request->get['route'])) {
 	$action = new Action($request->get['route']);
 } else {
-	$action = new Action('common/home');
+	$action = new Action('product/productall');
 }
 
 // Dispatch

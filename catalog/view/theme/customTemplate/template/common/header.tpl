@@ -65,9 +65,9 @@ DD_belatedPNG.fix('#logo img');
         <?php } ?>
     </div>-->
     <ul>
-        <li><a href="<?php echo $home; ?>"><?php echo strtoupper($text_home); ?></a></li>
+        <li><a href="<?php echo $home; ?>" id="product"><?php echo strtoupper($text_products); ?></a></li>
+        <li><a href="<?php echo $portfolio; ?>"><?php echo strtoupper($text_portfolio); ?></a></li>
         <li><a href="<?php echo $about; ?>"><?php echo strtoupper($text_about); ?></a></li>
-        <li><a href="<?php echo $product; ?>" id="product"><?php echo strtoupper($text_product); ?></a></li>
         <li><a href="<?php echo $contact; ?>"><?php echo strtoupper($text_contact); ?></a></li>
     </ul>
     <div id="search">

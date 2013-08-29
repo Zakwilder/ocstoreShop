@@ -69,7 +69,7 @@ class ControllerCommonHeader extends Controller {
 		$this->data['og_url'] = (isset($this->request->server['HTTPS']) ? HTTPS_SERVER : HTTP_SERVER) . $this->request->server['REQUEST_URI'];
 		$this->data['og_image'] = $this->document->getOgImage();
 		
-		$this->data['text_home'] = $this->language->get('text_home');
+
 		$this->data['text_wishlist'] = sprintf($this->language->get('text_wishlist'), (isset($this->session->data['wishlist']) ? count($this->session->data['wishlist']) : 0));
 		$this->data['text_shopping_cart'] = $this->language->get('text_shopping_cart');
     	$this->data['text_search'] = $this->language->get('text_search');
@@ -77,11 +77,13 @@ class ControllerCommonHeader extends Controller {
 		$this->data['text_logged'] = sprintf($this->language->get('text_logged'), $this->url->link('account/account', '', 'SSL'), $this->customer->getFirstName(), $this->url->link('account/logout', '', 'SSL'));
 		$this->data['text_account'] = $this->language->get('text_account');
     	$this->data['text_checkout'] = $this->language->get('text_checkout');
-		$this->data['text_product'] = $this->language->get('text_product');
+		$this->data['text_products'] = $this->language->get('text_products');
 		$this->data['text_contact'] = $this->language->get('text_contact');
 		$this->data['text_about'] = $this->language->get('text_about');
-				
+		$this->data['text_portfolio'] = $this->language->get('text_portfolio');
+
 		$this->data['home'] = $this->url->link('common/home');
+		$this->data['portfolio'] = $this->url->link('information/news');
 		$this->data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
 		$this->data['logged'] = $this->customer->isLogged();
 		$this->data['account'] = $this->url->link('account/account', '', 'SSL');

@@ -21,6 +21,7 @@ $_['text_home']           = 'Home';
 $_['text_products']        = 'Catalog';
 $_['text_contact']        = 'Contacts';
 $_['text_about']          = 'About';
+$_['text_portfolio']       = 'Portfolio';
 $_['text_address']   = 'Address:';
 $_['text_email']     = 'E-Mail:';
 $_['text_telephone'] = 'Phone:';
