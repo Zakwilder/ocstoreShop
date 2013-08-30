@@ -86,7 +86,7 @@ label {
 }
 #content {
 	min-height: 400px;
-	margin-bottom: 25px;
+	margin-bottom: 60px;
 }
 #column-left + #column-right + #content, #column-left + #content {
 	margin-left: 255px;
@@ -122,7 +122,7 @@ label {
     position: relative;
     float: left;
     z-index: 20;
-    padding: 6px 5px 5px 0px;
+    padding: 6px 25px 5px 0;
 
 }
 #navi > ul > li:hover {
@@ -427,7 +427,6 @@ label {
     text-align: center;
     text-transform: uppercase;
     color: #ffe17a;
-    vertical-align: middle;
     font-size: 14px;
 }
 
@@ -1068,7 +1067,7 @@ a.button:hover, input.button:hover {
 	background: url('../image/add.png') left 60% no-repeat;
 }
 .product-view {
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 	width: 100%;
 	overflow: auto;
     background: url(../image/content-transparent15.png) 0 0 repeat;
@@ -1079,7 +1078,7 @@ a.button:hover, input.button:hover {
     border-radius: 10px;
     text-align: center;
 }
-.product-grid > div.product-view {
+.product-grid div.product-view {
 	width: 205px;
     height: 300px;
 	display: inline-block;
@@ -1106,7 +1105,8 @@ a.button:hover, input.button:hover {
     font-size: 18px;
 }
 .product-view .description {
-	display: none;
+    margin-bottom: 4px;
+    font-size: 18px;
 }
 .product-view .rating {
 	display: block;
@@ -1821,6 +1821,10 @@ a.button:hover, input.button:hover {
     color: #fff;
     text-align: center;
     margin-left: 255px;
+	position: absolute;	
+	bottom: 0;
+	left: 0;
+	width: 72%;
 }
 
 .adr .firstline {
@@ -1836,6 +1840,3 @@ a.button:hover, input.button:hover {
     color: #fff799;
     font-size: 14px;
 }
-
-
-
