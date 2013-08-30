@@ -189,3 +189,5 @@
 2013-08-29 18:13:49 - PHP Notice:  Undefined variable: home in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 90
 2013-08-29 18:13:58 - PHP Notice:  Undefined variable: home in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 68
 2013-08-29 18:13:58 - PHP Notice:  Undefined variable: home in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 90
+2013-08-30 12:14:07 - PHP Warning:  explode(): Empty delimiter in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 70
+2013-08-30 12:14:07 - PHP Warning:  implode(): Invalid arguments passed in C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\template\common\header.tpl on line 70

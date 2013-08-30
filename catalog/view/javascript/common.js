@@ -10,6 +10,18 @@ $(document).ready(function() {
 		}
 		
 		location = url;
+	});$('.text_search').bind('keypress', function(e) {
+		if(e.which == 13) {
+			url = $('base').attr('href') + 'index.php?route=product/search';
+
+			var filter_name = $('input[name=\'filter_name\']').attr('value');
+
+			if (filter_name) {
+				url += '&filter_name=' + encodeURIComponent(filter_name);
+			}
+
+			location = url;
+		}
 	});
 	
 	$('#header input[name=\'filter_name\']').bind('keydown', function(e) {
@@ -87,8 +99,13 @@ $(document).ready(function() {
 
 	var url=document.location.href;
 	$.each($("#navi ul li a"),function(){
-		if(this.href==url){$(this).addClass('active');};
-	});
+		if(this.href==url){
+			$(this).addClass('active');
+
+		};
+	}).hover(function () {
+
+		});
 });
 
 function getURLVar(urlVarName) {

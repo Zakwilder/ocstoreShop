@@ -11,7 +11,7 @@
 
 
       <?php if ($products) { ?>
-      <div style="padding: 15px">
+      <div style="padding: 15px 15px 15px 0">
           <!--<div class="product-filter">
             <div class="limit"><b style="color: #fff;"><?php echo $text_limit; ?></b>
               <select onchange="location = this.value;">

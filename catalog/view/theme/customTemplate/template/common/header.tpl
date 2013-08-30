@@ -65,18 +65,42 @@ DD_belatedPNG.fix('#logo img');
         <?php } ?>
     </div>-->
     <ul>
-        <li><a href="<?php echo $home; ?>" id="product"><?php echo strtoupper($text_products); ?></a></li>
-        <li><a href="<?php echo $portfolio; ?>"><?php echo strtoupper($text_portfolio); ?></a></li>
-        <li><a href="<?php echo $about; ?>"><?php echo strtoupper($text_about); ?></a></li>
-        <li><a href="<?php echo $contact; ?>"><?php echo strtoupper($text_contact); ?></a></li>
+        <li>
+            <a href="<?php echo $home; ?>" id="product">
+                <?php echo implode('&nbsp;',str_split($text_products)); ?>
+
+            </a>
+
+        </li>
+        <li>
+            <a href="<?php echo $portfolio; ?>">
+                <?php echo implode('&nbsp;',str_split($text_portfolio)); ?>
+
+            </a>
+
+        </li>
+        <li>
+            <a href="<?php echo $about; ?>">
+                <?php echo implode('&nbsp;',str_split($text_about)); ?>
+
+            </a>
+
+        </li>
+        <li>
+            <a href="<?php echo $contact; ?>">
+                <?php echo implode('&nbsp;',str_split($text_contact)); ?>
+
+            </a>
+
+        </li>
     </ul>
     <div id="search">
         <div class="div9">
             <span><?php echo $text_search;?></span>
             <?php if ($filter_name) { ?>
-            <input type="text" value="<?php echo $filter_name; ?>" id="filter_keyword" name="filter_name" onclick="this.value = '';" onkeydown="this.style.color = '#fff'" style="color: #fff;"/>
+            <input type="text" class="text_search" value="<?php echo $filter_name; ?>" id="filter_keyword" name="filter_name" onclick="this.value = '';" onkeydown="this.style.color = '#fff'" style="color: #fff;"/>
             <?php } else { ?>
-            <input type="text" value="<?php echo $text_search; ?>" id="filter_keyword" name="filter_name" onclick="this.value = '';" onkeydown="this.style.color = '#fff'" style="color: #fff;" />
+            <input type="text" class="text_search" value="<?php echo $text_search; ?>" id="filter_keyword" name="filter_name" onclick="this.value = '';" onkeydown="this.style.color = '#fff'" style="color: #fff;" />
             <?php } ?>
             <input name="image" type="image" class="button-search" src="catalog/view/theme/customTemplate/image/Spotlight01.png">
 

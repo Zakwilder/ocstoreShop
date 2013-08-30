@@ -59,7 +59,7 @@
       </div>
       <h2><?php echo $text_search; ?></h2>
       <?php if ($products) { ?>
-      <div class="product-filter">
+      <!--<div class="product-filter">
         <div class="display"><b><?php echo $text_display; ?></b> <?php echo $text_list; ?> <b>/</b> <a onclick="display('grid');"><?php echo $text_grid; ?></a></div>
         <div class="limit"><?php echo $text_limit; ?>
           <select onchange="location = this.value;">
@@ -83,11 +83,10 @@
             <?php } ?>
           </select>
         </div>
-      </div>
-      <div class="product-compare"><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></div>
+      </div>-->
       <div class="product-list">
         <?php foreach ($products as $product) { ?>
-        <div>
+        <div class="product-view">
           <?php if ($product['thumb']) { ?>
           <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" title="<?php echo $product['name']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
           <?php } ?>
@@ -106,12 +105,6 @@
             <?php } ?>
           </div>
           <?php } ?>
-          <?php if ($product['rating']) { ?>
-          <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
-          <?php } ?>
-          <div class="cart"><input type="button" value="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button" /></div>
-          <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><?php echo $button_wishlist; ?></a></div>
-          <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><?php echo $button_compare; ?></a></div>
         </div>
         <?php } ?>
       </div>
@@ -165,9 +158,6 @@ function display(view) {
 		
 		$('.product-list > div').each(function(index, element) {
 			html  = '<div class="right">';
-			html += '  <div class="cart">' + $(element).find('.cart').html() + '</div>';
-			html += '  <div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
-			html += '  <div class="compare">' + $(element).find('.compare').html() + '</div>';
 			html += '</div>';			
 			
 			html += '<div class="left">';
@@ -228,10 +218,7 @@ function display(view) {
 			if (rating != null) {
 				html += '<div class="rating">' + rating + '</div>';
 			}
-						
-			html += '<div class="cart">' + $(element).find('.cart').html() + '</div>';
-			html += '<div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
-			html += '<div class="compare">' + $(element).find('.compare').html() + '</div>';
+
 			
 			$(element).html(html);
 		});	
@@ -244,10 +231,6 @@ function display(view) {
 
 view = $.cookie('display');
 
-if (view) {
-	display(view);
-} else {
-	display('list');
-}
+display('grid');
 //--></script> 
 <?php echo $footer; ?>
