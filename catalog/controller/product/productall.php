@@ -124,16 +124,17 @@ class ControllerProductProductall extends Controller {
 				}
 								
 				$this->data['products'][] = array(
-					'product_id'  => $result['product_id'],
-					'thumb'       => $image,
-					'name'        => $result['name'],
-					'description' => mb_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, 100) . '..',
-					'price'       => $price,
-					'special'     => $special,
-					'tax'         => $tax,
-					'rating'      => $result['rating'],
-					'reviews'     => sprintf($this->language->get('text_reviews'), (int)$result['reviews']),
-					'href'        => $this->url->link('product/product', '&product_id=' . $result['product_id'])
+					'product_id'        => $result['product_id'],
+					'thumb'             => $image,
+					'name'              => $result['name'],
+					'description'       => mb_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, 100) . '..',
+					'meta_description'  => $result['meta_description'],
+					'price'             => $price,
+					'special'           => $special,
+					'tax'               => $tax,
+					'rating'            => $result['rating'],
+					'reviews'           => sprintf($this->language->get('text_reviews'), (int)$result['reviews']),
+					'href'              => $this->url->link('product/product', '&product_id=' . $result['product_id'])
 				);
 			}
 			

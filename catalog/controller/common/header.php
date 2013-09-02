@@ -83,7 +83,7 @@ class ControllerCommonHeader extends Controller {
 		$this->data['text_portfolio'] = $this->language->get('text_portfolio');
 
 		$this->data['home'] = $this->url->link('common/home');
-		$this->data['portfolio'] = $this->url->link('information/news');
+		$this->data['portfolio'] = $this->url->link('information/information', 'information_id=7', 'SSL');
 		$this->data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
 		$this->data['logged'] = $this->customer->isLogged();
 		$this->data['account'] = $this->url->link('account/account', '', 'SSL');

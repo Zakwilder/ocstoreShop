@@ -14,7 +14,9 @@
       <div class="buttons"><a onclick="$('#form').submit();" class="button"><?php echo $button_save; ?></a><a onclick="location = '<?php echo $cancel; ?>';" class="button"><?php echo $button_cancel; ?></a></div>
     </div>
     <div class="content">
-      <div id="tabs" class="htabs"><a href="#tab-general"><?php echo $tab_general; ?></a><a href="#tab-data"><?php echo $tab_data; ?></a><a href="#tab-links"><?php echo $tab_links; ?></a><a href="#tab-attribute"><?php echo $tab_attribute; ?></a><a href="#tab-option"><?php echo $tab_option; ?></a><a href="#tab-discount"><?php echo $tab_discount; ?></a><a href="#tab-special"><?php echo $tab_special; ?></a><a href="#tab-image"><?php echo $tab_image; ?></a><a href="#tab-reward"><?php echo $tab_reward; ?></a><a href="#tab-design"><?php echo $tab_design; ?></a></div>
+      <div id="tabs" class="htabs"><a href="#tab-general"><?php echo $tab_general; ?></a><a href="#tab-data"><?php echo $tab_data; ?></a><a href="#tab-links"><?php echo $tab_links; ?></a>
+          <!--<a href="#tab-attribute"><?php echo $tab_attribute; ?></a><a href="#tab-option"><?php echo $tab_option; ?></a><a href="#tab-discount"><?php echo $tab_discount; ?></a><a href="#tab-special"><?php echo $tab_special; ?></a><a href="#tab-image"><?php echo $tab_image; ?></a><a href="#tab-reward"><?php echo $tab_reward; ?></a><a href="#tab-design"><?php echo $tab_design; ?></a>-->
+      </div>
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form">
         <div id="tab-general">
           <div id="languages" class="htabs">
@@ -62,7 +64,7 @@
         </div>
         <div id="tab-data">
           <table class="form">
-            <tr>
+            <!--<tr>
               <td><span class="required">*</span> <?php echo $entry_model; ?></td>
               <td><input type="text" name="model" value="<?php echo $model; ?>" />
                 <?php if ($error_model) { ?>
@@ -96,12 +98,12 @@
             <tr>
               <td><?php echo $entry_location; ?></td>
               <td><input type="text" name="location" value="<?php echo $location; ?>" /></td>
-            </tr>
+            </tr>-->
             <tr>
               <td><?php echo $entry_price; ?></td>
               <td><input type="text" name="price" value="<?php echo $price; ?>" /></td>
             </tr>
-            <tr>
+            <!--<tr>
               <td><?php echo $entry_tax_class; ?></td>
               <td><select name="tax_class_id">
                   <option value="0"><?php echo $text_none; ?></option>
@@ -159,7 +161,7 @@
                 <input type="radio" name="shipping" value="0" checked="checked" />
                 <?php echo $text_no; ?>
                 <?php } ?></td>
-            </tr>
+            </tr>-->
             <tr>
               <td><?php echo $entry_keyword; ?></td>
               <td><input type="text" name="keyword" value="<?php echo $keyword; ?>" /></td>
@@ -170,44 +172,44 @@
                   <input type="hidden" name="image" value="<?php echo $image; ?>" id="image" />
                   <a onclick="image_upload('image', 'thumb');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb').attr('src', '<?php echo $no_image; ?>'); $('#image').attr('value', '');"><?php echo $text_clear; ?></a></div></td>
             </tr>
-            <tr>
-              <td><?php echo $entry_date_available; ?></td>
-              <td><input type="text" name="date_available" value="<?php echo $date_available; ?>" size="12" class="date" /></td>
-            </tr>
-            <tr>
-              <td><?php echo $entry_dimension; ?></td>
-              <td><input type="text" name="length" value="<?php echo $length; ?>" size="4" />
-                <input type="text" name="width" value="<?php echo $width; ?>" size="4" />
-                <input type="text" name="height" value="<?php echo $height; ?>" size="4" /></td>
-            </tr>
-            <tr>
-              <td><?php echo $entry_length; ?></td>
-              <td><select name="length_class_id">
-                  <?php foreach ($length_classes as $length_class) { ?>
-                  <?php if ($length_class['length_class_id'] == $length_class_id) { ?>
-                  <option value="<?php echo $length_class['length_class_id']; ?>" selected="selected"><?php echo $length_class['title']; ?></option>
-                  <?php } else { ?>
-                  <option value="<?php echo $length_class['length_class_id']; ?>"><?php echo $length_class['title']; ?></option>
-                  <?php } ?>
-                  <?php } ?>
-                </select></td>
-            </tr>
-            <tr>
-              <td><?php echo $entry_weight; ?></td>
-              <td><input type="text" name="weight" value="<?php echo $weight; ?>" /></td>
-            </tr>
-            <tr>
-              <td><?php echo $entry_weight_class; ?></td>
-              <td><select name="weight_class_id">
-                  <?php foreach ($weight_classes as $weight_class) { ?>
-                  <?php if ($weight_class['weight_class_id'] == $weight_class_id) { ?>
-                  <option value="<?php echo $weight_class['weight_class_id']; ?>" selected="selected"><?php echo $weight_class['title']; ?></option>
-                  <?php } else { ?>
-                  <option value="<?php echo $weight_class['weight_class_id']; ?>"><?php echo $weight_class['title']; ?></option>
-                  <?php } ?>
-                  <?php } ?>
-                </select></td>
-            </tr>
+              <!--<tr>
+                <td><?php echo $entry_date_available; ?></td>
+                <td><input type="text" name="date_available" value="<?php echo $date_available; ?>" size="12" class="date" /></td>
+              </tr>
+              <tr>
+                <td><?php echo $entry_dimension; ?></td>
+                <td><input type="text" name="length" value="<?php echo $length; ?>" size="4" />
+                  <input type="text" name="width" value="<?php echo $width; ?>" size="4" />
+                  <input type="text" name="height" value="<?php echo $height; ?>" size="4" /></td>
+              </tr>
+              <tr>
+                <td><?php echo $entry_length; ?></td>
+                <td><select name="length_class_id">
+                    <?php foreach ($length_classes as $length_class) { ?>
+                    <?php if ($length_class['length_class_id'] == $length_class_id) { ?>
+                    <option value="<?php echo $length_class['length_class_id']; ?>" selected="selected"><?php echo $length_class['title']; ?></option>
+                    <?php } else { ?>
+                    <option value="<?php echo $length_class['length_class_id']; ?>"><?php echo $length_class['title']; ?></option>
+                    <?php } ?>
+                    <?php } ?>
+                  </select></td>
+              </tr>
+              <tr>
+                <td><?php echo $entry_weight; ?></td>
+                <td><input type="text" name="weight" value="<?php echo $weight; ?>" /></td>
+              </tr>
+              <tr>
+                <td><?php echo $entry_weight_class; ?></td>
+                <td><select name="weight_class_id">
+                    <?php foreach ($weight_classes as $weight_class) { ?>
+                    <?php if ($weight_class['weight_class_id'] == $weight_class_id) { ?>
+                    <option value="<?php echo $weight_class['weight_class_id']; ?>" selected="selected"><?php echo $weight_class['title']; ?></option>
+                    <?php } else { ?>
+                    <option value="<?php echo $weight_class['weight_class_id']; ?>"><?php echo $weight_class['title']; ?></option>
+                    <?php } ?>
+                    <?php } ?>
+                  </select></td>
+              </tr>-->
             <tr>
               <td><?php echo $entry_status; ?></td>
               <td><select name="status">
@@ -220,10 +222,10 @@
                   <?php } ?>
                 </select></td>
             </tr>
-            <tr>
+            <!--<tr>
               <td><?php echo $entry_sort_order; ?></td>
               <td><input type="text" name="sort_order" value="<?php echo $sort_order; ?>" size="2" /></td>
-            </tr>
+            </tr>-->
           </table>
         </div>
         <div id="tab-links">
@@ -300,7 +302,7 @@
                   <?php } ?>
                 </div></td>
             </tr>
-            <tr>
+            <!--<tr>
               <td><?php echo $entry_download; ?></td>
               <td><div class="scrollbox">
                   <?php $class = 'odd'; ?>
@@ -333,10 +335,10 @@
                   </div>
                   <?php } ?>
                 </div></td>
-            </tr>
+            </tr>-->
           </table>
         </div>
-        <div id="tab-attribute">
+        <!--<div id="tab-attribute">
           <table id="attribute" class="list">
             <thead>
               <tr>
@@ -718,7 +720,7 @@
               </tr>
             </tbody>
             <?php } ?>
-          </table>
+          </table>-->
         </div>
       </form>
     </div>

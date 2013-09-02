@@ -15,13 +15,13 @@
     </div>
     <div class="content">
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form">
-        <div class="vtabs">
+        <!--<div class="vtabs">
           <?php $module_row = 1; ?>
           <?php foreach ($modules as $module) { ?>
           <a href="#tab-module-<?php echo $module_row; ?>" id="module-<?php echo $module_row; ?>"><?php echo $tab_module . ' ' . $module_row; ?>&nbsp;<img src="view/image/delete.png" alt="" onclick="$('.vtabs a:first').trigger('click'); $('#module-<?php echo $module_row; ?>').remove(); $('#tab-module-<?php echo $module_row; ?>').remove(); return false;" /></a>
           <?php $module_row++; ?>
           <?php } ?>
-          <span id="module-add"><?php echo $button_add_module; ?>&nbsp;<img src="view/image/add.png" alt="" onclick="addModule();" /></span> </div>
+          <span id="module-add"><?php echo $button_add_module; ?>&nbsp;<img src="view/image/add.png" alt="" onclick="addModule();" /></span> </div>-->
         <?php $module_row = 1; ?>
         <?php foreach ($modules as $module) { ?>
         <div id="tab-module-<?php echo $module_row; ?>" class="vtabs-content">

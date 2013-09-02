@@ -1,0 +1,50 @@
+<modification>
+	<id>Price Free!</id>
+	<version>1.0.1</version>
+	<vqmver>1.2.3</vqmver>
+	<author>ukrgeraldika</author>
+	<file name="system/library/currency.php">
+		<operation>
+
+			<search position="before"><![CDATA[
+                $string = '';
+			]]></search>
+
+			<add><![CDATA[
+        		if ($format && (float)$value == 0) {
+        			return '<span class="pricefree">по договоренности</span>';
+        		}
+			]]></add>
+
+		</operation>
+	</file>
+
+	<file name="catalog/controller/module/cart.php">
+		<operation>
+			<search position="after"><![CDATA[
+            $this->data['heading_title'] = $this->language->get('heading_title');
+			]]></search>
+
+            <add><![CDATA[
+            if ($this->currency->format($total) == 0) {
+            $totalzero = '0.00';
+            } else {
+            $totalzero = $this->currency->format($total);
+            }
+            ]]></add>
+		</operation>
+	</file>
+    
+	<file name="catalog/controller/module/cart.php">
+		<operation>
+			<search position="replace"><![CDATA[
+            $this->data['text_items'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total) );
+			]]></search>
+
+            <add><![CDATA[
+            $this->data['text_items'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $totalzero );
+            ]]></add>
+		</operation>
+	</file>
+
+</modification>

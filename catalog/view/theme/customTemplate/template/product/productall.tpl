@@ -41,7 +41,7 @@
                               <div class="name">
                                   <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                               </div>
-                              <div class="description"><?php echo $product['description']; ?></div>
+                              <div class="description"><?php echo $product['meta_description']; ?><br/></div>
                               <?php if ($product['price']) { ?>
                               <div class="price">
                                 <?php echo $this->language->get('text_price');?>

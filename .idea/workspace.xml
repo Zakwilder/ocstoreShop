@@ -17,6 +17,17 @@
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1375267602" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1375278860" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/column_left.php" afterPath="$PROJECT_DIR$/catalog/controller/common/column_left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/ckeditor/config.js" afterPath="$PROJECT_DIR$/admin/view/javascript/ckeditor/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/logs/error.txt" afterPath="$PROJECT_DIR$/system/logs/error.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/module/page_content.tpl" afterPath="$PROJECT_DIR$/admin/view/template/module/page_content.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/catalog/product.php" afterPath="$PROJECT_DIR$/admin/controller/catalog/product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/english/catalog/product.php" afterPath="$PROJECT_DIR$/admin/language/english/catalog/product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/catalog/product_list.tpl" afterPath="$PROJECT_DIR$/admin/view/template/catalog/product_list.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/product/productall.php" afterPath="$PROJECT_DIR$/catalog/controller/product/productall.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -27,25 +38,25 @@
     <ignored path="system/cache/" />
     <file path="/header.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377857774783" ignored="false" />
     <file path="/stylesheet.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377870608393" ignored="false" />
-    <file path="/Dummy.txt" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377867109023" ignored="false" />
+    <file path="/Dummy.txt" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378128123060" ignored="false" />
     <file path="/cart.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375370187098" ignored="false" />
     <file path="/home.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377611510936" ignored="false" />
     <file path="/footer.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377678834703" ignored="false" />
     <file path="/slideshow.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375087963962" ignored="false" />
-    <file path="/a.dummy" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377789052302" ignored="false" />
+    <file path="/a.dummy" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378135673637" ignored="false" />
     <file path="/slideshow.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375090031715" ignored="false" />
     <file path="/header.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375102960713" ignored="false" />
     <file path="/slideshow.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375091155426" ignored="false" />
     <file path="/banner.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375091700019" ignored="false" />
     <file path="/login.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375705612301" ignored="false" />
-    <file path="/productall.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377870772985" ignored="false" />
+    <file path="/productall.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378129327526" ignored="false" />
     <file path="/.htaccess" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375262469293" ignored="false" />
     <file path="/account.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375370769063" ignored="false" />
     <file path="/column_left.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377787367734" ignored="false" />
     <file path="/latest.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375276542434" ignored="false" />
     <file path="/information.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375369648002" ignored="false" />
     <file path="/login.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375362063175" ignored="false" />
-    <file path="/seo_pro.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375431687755" ignored="false" />
+    <file path="/seo_pro.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378131107397" ignored="false" />
     <file path="/.gitignore" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375364194136" ignored="false" />
     <file path="/contact.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375369739692" ignored="false" />
     <file path="/checkout.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375369925746" ignored="false" />
@@ -54,14 +65,33 @@
     <file path="$PROJECT_DIR$/../knockout/js/FriendModel.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375450372196" ignored="false" />
     <file path="/FriendModel.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375450225851" ignored="false" />
     <file path="/register.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375705950585" ignored="false" />
-    <file path="/product.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377688566649" ignored="false" />
-    <file path="/page_content.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377600037973" ignored="false" />
+    <file path="/product.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378128964209" ignored="false" />
+    <file path="/page_content.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378139677169" ignored="false" />
     <file path="/common.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377856112707" ignored="false" />
     <file path="/column_left.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377602073170" ignored="false" />
     <file path="/content_bottom.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377610159230" ignored="false" />
     <file path="/search.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377852951465" ignored="false" />
     <file path="/news.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377788618507" ignored="false" />
-    <file path="$PROJECT_DIR$/vqmod/vqcache/vq2-system_engine_controller.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377857657697" ignored="false" />
+    <file path="C:/development-BLOG/workspace/files/plugins/skills/templates/language/russian.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377872895036" ignored="false" />
+    <file path="C:/development-BLOG/workspace/files/plugins/skills/templates/language/english.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377872942755" ignored="false" />
+    <file path="/english.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377872907511" ignored="false" />
+    <file path="C:/development-BLOG/workspace/files/plugins/skills/templates/skin/default/actions/ActionAdmin/admin.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874685573" ignored="false" />
+    <file path="/admin.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874628184" ignored="false" />
+    <file path="C:/development-BLOG/workspace/files/templates/skin/new-jquery/css/main.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377873104744" ignored="false" />
+    <file path="/main.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377873104313" ignored="false" />
+    <file path="C:/development-BLOG/workspace/files/plugins/skills/templates/skin/default/js/skills.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874786800" ignored="false" />
+    <file path="/skills.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874785489" ignored="false" />
+    <file path="C:/development-BLOG/workspace/files/plugins/skills/classes/actions/ActionAdmin.class.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874853030" ignored="false" />
+    <file path="/ActionAdmin.class.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874842626" ignored="false" />
+    <file path="/productall.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378129279529" ignored="false" />
+    <file path="/seo_url.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378130325731" ignored="false" />
+    <file path="/product_form.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378132731693" ignored="false" />
+    <file path="/a.twig" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378131883664" ignored="false" />
+    <file path="/product_list.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378132657560" ignored="false" />
+    <file path="/image.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378136898255" ignored="false" />
+    <file path="/dialogDefinition.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378137446131" ignored="false" />
+    <file path="/product.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378137859422" ignored="false" />
+    <file path="/price_free_1.0.1.xml" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378139858037" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,45 +111,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl">
+      <file leaf-file-name="product_form.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="22" selection-start="4510" selection-end="4510" vertical-scroll-proportion="-10.576923">
+            <state line="174" column="18" selection-start="10635" selection-end="10635" vertical-scroll-proportion="-16.923077">
               <folding>
-                <marker date="1377857909840" expanded="true" signature="2855:2897" placeholder="..." />
+                <marker date="1378139757807" expanded="false" signature="51253:51267" placeholder="..." />
+                <marker date="1378139757807" expanded="false" signature="60475:60500" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
+      <file leaf-file-name="price_free_1.0.1.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1377857355495" expanded="false" signature="3798:3812" placeholder="..." />
-                <marker date="1377857355495" expanded="false" signature="4435:4449" placeholder="..." />
-                <marker date="1377857355495" expanded="false" signature="5075:5089" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/search.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="15" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.0">
+            <state line="14" column="69" selection-start="387" selection-end="387" vertical-scroll-proportion="0.28367105">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productall.tpl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl">
+      <file leaf-file-name="product.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="35" selection-start="4835" selection-end="4835" vertical-scroll-proportion="-0.35916358">
+            <state line="29" column="38" selection-start="1500" selection-end="1500" vertical-scroll-proportion="-18.961538">
               <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1378128965226" expanded="false" signature="12176:12190" placeholder="..." />
+                <marker date="1378128965226" expanded="false" signature="13099:13117" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="308" column="65" selection-start="13157" selection-end="13157" vertical-scroll-proportion="-21.76923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.730769">
+              <folding>
+                <marker date="1377857909840" expanded="true" signature="2855:2897" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -128,43 +167,47 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="79" selection-start="3869" selection-end="3869" vertical-scroll-proportion="0.0">
+            <state line="85" column="106" selection-start="4028" selection-end="4028" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/news.tpl">
+      <file leaf-file-name="page_content.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/controller/module/page_content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="3" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="not_found.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/error/not_found.tpl">
+      <file leaf-file-name="page_content.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/view/template/module/page_content.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="59" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+            <state line="23" column="150" selection-start="1573" selection-end="1573" vertical-scroll-proportion="-15.038462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css">
+      <file leaf-file-name="column_left.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/common/column_left.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1108" column="20" selection-start="21695" selection-end="21695" vertical-scroll-proportion="-15.76">
+            <state line="82" column="8" selection-start="2666" selection-end="2764" vertical-scroll-proportion="-14.923077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-bg.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/image/content-bg.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="image.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/view/javascript/ckeditor/plugins/image/dialogs/image.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="28" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -186,22 +229,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/information/information.tpl" />
-        <option value="$PROJECT_DIR$/catalog/language/english/information/contact.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl" />
-        <option value="$PROJECT_DIR$/admin/view/template/common/header.tpl" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/catalog/language/english/english.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/column_left.tpl" />
-        <option value="$PROJECT_DIR$/catalog/controller/common/column_left.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/information/news.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/error/not_found.tpl" />
-        <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/search.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/javascript/common.js" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/productall.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" />
+        <option value="$PROJECT_DIR$/admin/language/english/catalog/product.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/seo_url.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/seo_pro.php" />
+        <option value="$PROJECT_DIR$/admin/controller/catalog/product.php" />
+        <option value="$PROJECT_DIR$/admin/view/template/catalog/product_list.tpl" />
+        <option value="$PROJECT_DIR$/admin/view/javascript/ckeditor/config.js" />
+        <option value="$PROJECT_DIR$/admin/view/javascript/ckeditor/plugins/image/dialogs/image.js" />
+        <option value="$PROJECT_DIR$/admin/view/javascript/ckeditor/plugins/dialog/dialogDefinition.js" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/column_left.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
+        <option value="$PROJECT_DIR$/admin/view/template/module/page_content.tpl" />
+        <option value="$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl" />
+        <option value="$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml" />
       </list>
     </option>
   </component>
@@ -238,6 +281,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,6 +297,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vqmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vqmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -650,6 +726,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="language" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="information" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -839,12 +941,26 @@
               <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -865,22 +981,12 @@
               <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ocstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocstore" />
+              <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
+              <option name="myItemId" value="ckeditor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -898,11 +1004,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="russian" />
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -921,14 +1069,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="russian" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -976,7 +1116,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
+              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1042,15 +1182,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -1134,11 +1295,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20864461" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21291356" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1147,8 +1310,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1222,107 +1383,135 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/language/english/english.php">
+    <entry file="file://$PROJECT_DIR$/admin/view/javascript/ckeditor/ckeditor_basic_source.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/common/column_left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="69" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/information/information.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/english/information/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/information/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/information/news.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="99" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/module/news.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/error/not_found.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/search.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="15" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1377857355495" expanded="false" signature="3798:3812" placeholder="..." />
-            <marker date="1377857355495" expanded="false" signature="4435:4449" placeholder="..." />
-            <marker date="1377857355495" expanded="false" signature="5075:5089" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/common/header.php">
+    <entry file="file://$PROJECT_DIR$/admin/view/javascript/ckeditor/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="27" column="26" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
+    <entry file="file://$PROJECT_DIR$/admin/view/javascript/ckeditor/ckeditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="79" selection-start="3869" selection-end="3869" vertical-scroll-proportion="0.0">
+        <state line="109" column="840" selection-start="267725" selection-end="267725" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/javascript/ckeditor/plugins/bbcode/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1537" selection-start="6695" selection-end="6698" vertical-scroll-proportion="-2.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/image/content-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/admin/view/javascript/ckeditor/themes/default/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/javascript/ckeditor/plugins/dialog/dialogDefinition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/javascript/ckeditor/plugins/image/dialogs/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="38" selection-start="1500" selection-end="1500" vertical-scroll-proportion="-18.961538">
+          <folding>
+            <marker date="1378128965226" expanded="false" signature="12176:12190" placeholder="..." />
+            <marker date="1378128965226" expanded="false" signature="13099:13117" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="308" column="65" selection-start="13157" selection-end="13157" vertical-scroll-proportion="-21.76923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/column_left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="8" selection-start="2666" selection-end="2764" vertical-scroll-proportion="-14.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="106" selection-start="4028" selection-end="4028" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/module/page_content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="22" selection-start="4510" selection-end="4510" vertical-scroll-proportion="-10.576923">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.730769">
           <folding>
             <marker date="1377857909840" expanded="true" signature="2855:2897" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/admin/view/template/module/page_content.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1108" column="20" selection-start="21695" selection-end="21695" vertical-scroll-proportion="-15.76">
+        <state line="23" column="150" selection-start="1573" selection-end="1573" vertical-scroll-proportion="-15.038462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl">
+    <entry file="file://$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="35" selection-start="4835" selection-end="4835" vertical-scroll-proportion="-0.35916358">
+        <state line="174" column="18" selection-start="10635" selection-end="10635" vertical-scroll-proportion="-16.923077">
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1378139757807" expanded="false" signature="51253:51267" placeholder="..." />
+            <marker date="1378139757807" expanded="false" signature="60475:60500" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="69" selection-start="387" selection-end="387" vertical-scroll-proportion="0.28367105">
+          <folding />
         </state>
       </provider>
     </entry>
