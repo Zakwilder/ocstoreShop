@@ -15,7 +15,7 @@ h1, .welcome {
     width: 100%;
     border-bottom: 1px solid #b38667;
     text-align: center;
-    font: bold 20px/30px "Century Gothic",Helvetica,sans-serif;
+    font-size: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #efbd5d;
@@ -85,7 +85,7 @@ label {
 	width: 180px;
 }
 #content {
-	min-height: 400px;
+	min-height: 500px;
 	margin-bottom: 60px;
 }
 #column-left + #column-right + #content, #column-left + #content {

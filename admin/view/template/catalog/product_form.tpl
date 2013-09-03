@@ -222,10 +222,10 @@
                   <?php } ?>
                 </select></td>
             </tr>
-            <!--<tr>
+            <tr>
               <td><?php echo $entry_sort_order; ?></td>
               <td><input type="text" name="sort_order" value="<?php echo $sort_order; ?>" size="2" /></td>
-            </tr>-->
+            </tr>
           </table>
         </div>
         <div id="tab-links">

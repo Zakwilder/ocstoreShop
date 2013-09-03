@@ -775,6 +775,10 @@
 			.load(function () {
 				var percent;
 				photo.onload = null; //stops animated gifs from firing the onload repeatedly.
+
+					photo.onclick = function () {
+						publicMethod.close();
+					};
 				
 				if (settings.scalePhotos) {
 					setResize = function () {
@@ -798,7 +802,7 @@
 				if ($related[1] && (settings.loop || $related[index + 1])) {
 					photo.style.cursor = 'pointer';
 					photo.onclick = function () {
-                        publicMethod.next();
+                        publicMethod.close();
                     };
 				}
 				

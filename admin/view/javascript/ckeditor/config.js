@@ -25,6 +25,8 @@ CKEDITOR.editorConfig = function( config )
 	config.htmlEncodeOutput = false;
 	config.entities = false;
 	
+	config.extraPlugins = 'placeholder';
+	
 	config.toolbar = 'Full';
 
 	config.toolbar_Custom = [
@@ -52,7 +54,7 @@ CKEDITOR.editorConfig = function( config )
 		['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
 		['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
 		['Link','Unlink','Anchor'],
-		['Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak'],
+		['Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak', 'CreatePlaceholder'],
 		'/',
 		['Styles','Format','Font','FontSize'],
 		['TextColor','BGColor'],
