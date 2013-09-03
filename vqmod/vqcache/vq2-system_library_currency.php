@@ -73,7 +73,7 @@ class Currency {
 
 
         		if ($format && (float)$value == 0) {
-        			return '<span class="pricefree">по договоренности</span>';
+        			return '<span class="pricefree">' . $this->language->get('price_negotiable') . '</span>';
         		}
 			
     	$string = '';

@@ -307,6 +307,7 @@ class ControllerProductProduct extends Controller {
 			$this->data['reviews'] = sprintf($this->language->get('text_reviews'), (int)$product_info['reviews']);
 			$this->data['rating'] = (int)$product_info['rating'];
 			$this->data['description'] = html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8');
+
 			$this->data['attribute_groups'] = $this->model_catalog_product->getProductAttributes($this->request->get['product_id']);
 			
 			$this->data['products'] = array();
@@ -348,7 +349,9 @@ class ControllerProductProduct extends Controller {
 					'reviews'    => sprintf($this->language->get('text_reviews'), (int)$result['reviews']),
 					'href'    	 => $this->url->link('product/product', 'product_id=' . $result['product_id']),
 				);
-			}	
+			}
+
+			$this->data['description'] = str_replace('%price%', $this->data['price'] ,$this->data['description']);
 			
 			$this->data['tags'] = array();
 					
