@@ -12,7 +12,7 @@
 
 			<add><![CDATA[
         		if ($format && (float)$value == 0) {
-        			return '<span class="pricefree">' . $this->language->get('price_negotiable') . '</span>';
+        			return $this->language->get('price_negotiable');
         		}
 			]]></add>
 
