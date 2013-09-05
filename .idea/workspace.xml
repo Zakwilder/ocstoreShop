@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ac70e-4c61-4291-be5a-ea14f26a7703" name="Default" comment="Login/Logout redirect">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/controller/module/inquiry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\catalog\view\javascript\fast_order.js" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.category.seopath.1375267603" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.category.seopath.1375276673" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.currency.1375267503" afterPath="" />
@@ -17,21 +20,11 @@
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1375267602" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1375278860" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-admin_controller_common_header.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-admin_controller_common_home.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-admin_language_english_common_header.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-admin_view_template_common_header.tpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-admin_view_template_common_home.tpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-system_engine_controller.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-system_engine_front.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-system_engine_loader.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-system_library_currency.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-system_library_language.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-system_library_template.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-system_startup.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/logs/error.txt" afterPath="$PROJECT_DIR$/system/logs/error.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml" afterPath="$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\stylesheet\fast_order.css" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/product_inquiry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fast_order.php" afterPath="$PROJECT_DIR$/fast_order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/xml/fast_order.xml" afterPath="$PROJECT_DIR$/vqmod/xml/fast_order.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_common_header.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_common_header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ocstore.iws" />
@@ -40,12 +33,12 @@
     <ignored path="system/cache/" />
     <file path="/header.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377857774783" ignored="false" />
     <file path="/stylesheet.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378218694234" ignored="false" />
-    <file path="/Dummy.txt" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378307758395" ignored="false" />
+    <file path="/Dummy.txt" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378372627508" ignored="false" />
     <file path="/cart.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375370187098" ignored="false" />
     <file path="/home.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377611510936" ignored="false" />
     <file path="/footer.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377678834703" ignored="false" />
     <file path="/slideshow.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375087963962" ignored="false" />
-    <file path="/a.dummy" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378298601387" ignored="false" />
+    <file path="/a.dummy" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378375247709" ignored="false" />
     <file path="/slideshow.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375090031715" ignored="false" />
     <file path="/header.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375102960713" ignored="false" />
     <file path="/slideshow.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375091155426" ignored="false" />
@@ -79,8 +72,8 @@
     <file path="/english.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378194952857" ignored="false" />
     <file path="C:/development-BLOG/workspace/files/plugins/skills/templates/skin/default/actions/ActionAdmin/admin.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874685573" ignored="false" />
     <file path="/admin.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874628184" ignored="false" />
-    <file path="C:/development-BLOG/workspace/files/templates/skin/new-jquery/css/main.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377873104744" ignored="false" />
-    <file path="/main.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377873104313" ignored="false" />
+    <file path="C:/development-BLOG/workspace/files/templates/skin/new-jquery/css/main.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378372541538" ignored="false" />
+    <file path="/main.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378372316804" ignored="false" />
     <file path="C:/development-BLOG/workspace/files/plugins/skills/templates/skin/default/js/skills.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874786800" ignored="false" />
     <file path="/skills.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874785489" ignored="false" />
     <file path="C:/development-BLOG/workspace/files/plugins/skills/classes/actions/ActionAdmin.class.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377874853030" ignored="false" />
@@ -109,7 +102,7 @@
     <file path="/plugins.dat" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378297311683" ignored="false" />
     <file path="C:/development-BLOG/workspace/files/plugins/peoplefilter/templates/skin/default/filter.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378303752477" ignored="false" />
     <file path="/filter.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378303752477" ignored="false" />
-    <file path="C:/development-BLOG/workspace/files/templates/skin/new-jquery/actions/ActionPeople/sidebar.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378307795283" ignored="false" />
+    <file path="C:/development-BLOG/workspace/files/templates/skin/new-jquery/actions/ActionPeople/sidebar.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378371714388" ignored="false" />
     <file path="/sidebar.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378298054904" ignored="false" />
     <file path="C:/development-BLOG/workspace/files/plugins/peoplefilter/plugin.xml" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378298563033" ignored="false" />
     <file path="/plugin.xml" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378298561861" ignored="false" />
@@ -121,13 +114,15 @@
     <file path="C:/development-BLOG/workspace/files/plugins/peoplefilter/templates/skin/default/filter.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378302151153" ignored="false" />
     <file path="C:/development-BLOG/workspace/files/plugins/peoplefilter/templates/skin/default/css/filter.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378302286465" ignored="false" />
     <file path="/filter.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378302239840" ignored="false" />
-    <file path="/fast_order.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378312421258" ignored="false" />
-    <file path="/fast_order.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378312100223" ignored="false" />
-    <file path="/fast_order.xml" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378311853439" ignored="false" />
+    <file path="/fast_order.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378372889800" ignored="false" />
+    <file path="/fast_order.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378377263567" ignored="false" />
+    <file path="/fast_order.xml" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378379019521" ignored="false" />
     <file path="C:/development-BLOG/workspace/files/templates/skin/new-jquery/js/main.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378307795283" ignored="false" />
     <file path="/vq2-catalog_view_theme_customTemplate_template_product_product.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378311798186" ignored="false" />
     <file path="/fast_order.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378310768489" ignored="false" />
     <file path="/dummy.xml" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378310734600" ignored="false" />
+    <file path="/inquiry.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378379531163" ignored="false" />
+    <file path="/product_inquiry.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378379684666" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,22 +142,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="product.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/library/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="458" selection-end="484" vertical-scroll-proportion="-6.5384617">
-              <folding>
-                <marker date="1378128965226" expanded="false" signature="12176:12190" placeholder="..." />
-                <marker date="1378128965226" expanded="false" signature="13099:13117" placeholder="..." />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fast_order.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fast_order.php">
+      <file leaf-file-name="mail.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/library/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="317" selection-end="317" vertical-scroll-proportion="-3.9230769">
+            <state line="1" column="6" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/information/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="38" selection-start="454" selection-end="454" vertical-scroll-proportion="-7.8461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/module/account.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/module/cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -171,64 +190,25 @@
       <file leaf-file-name="fast_order.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vqmod/xml/fast_order.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="143" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.0">
+            <state line="66" column="60" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vq2-catalog_view_theme_customTemplate_template_product_product.tpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl">
+      <file leaf-file-name="product_inquiry.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="77" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-15.692307">
-              <folding>
-                <marker date="1378312425449" expanded="false" signature="14223:14237" placeholder="..." />
-                <marker date="1378312425449" expanded="false" signature="15146:15164" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fast_order.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/fast_order.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="16" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+            <state line="7" column="60" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vqmod.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vqmod/vqmod.log">
+      <file leaf-file-name="inquiry.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/module/inquiry.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="494" column="0" selection-start="23295" selection-end="23295" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="price_free_1.0.1.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="67" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fast_order.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/catalog/view/javascript/fast_order.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="326" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.2431466">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="export.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vqmod/xml/export.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="7" column="57" selection-start="284" selection-end="284" vertical-scroll-proportion="0.14049587">
               <folding />
             </state>
           </provider>
@@ -237,7 +217,7 @@
       <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="16" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.0">
+            <state line="28" column="75" selection-start="842" selection-end="899" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1378194349680" expanded="false" signature="3856:3870" placeholder="..." />
                 <marker date="1378194349680" expanded="false" signature="4493:4507" placeholder="..." />
@@ -265,8 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/catalog/view/javascript/common.js" />
-        <option value="$PROJECT_DIR$/catalog/controller/product/search.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/search.tpl" />
         <option value="$PROJECT_DIR$/catalog/language/english/english.php" />
         <option value="$PROJECT_DIR$/vqmod/vqcache/vq2-system_library_currency.php" />
@@ -278,9 +256,11 @@
         <option value="$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml" />
         <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/fast_order.css" />
         <option value="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl" />
-        <option value="$PROJECT_DIR$/vqmod/xml/fast_order.xml" />
         <option value="$PROJECT_DIR$/fast_order.php" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/fast_order.js" />
+        <option value="$PROJECT_DIR$/vqmod/xml/fast_order.xml" />
+        <option value="$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js" />
+        <option value="$PROJECT_DIR$/catalog/controller/module/inquiry.php" />
       </list>
     </option>
   </component>
@@ -317,7 +297,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -383,20 +362,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vqcache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -483,6 +448,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customTemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customTemplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="information" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -685,32 +718,6 @@
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="payment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -753,24 +760,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="information" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1054,6 +1043,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1062,8 +1052,8 @@
     <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="last_opened_file_path" value="C:/development-BLOG/workspace/files" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -1145,9 +1135,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22198506" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22465315" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1156,7 +1147,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1231,51 +1221,66 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vqmod/vqmod.php">
+    <entry file="file://$PROJECT_DIR$/system/engine/controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2042503">
+        <state line="1" column="15" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.56416464">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/vqcache/vq2-system_engine_front.php">
+    <entry file="file://$PROJECT_DIR$/system/library/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/page_content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/vqcache/vq2-admin_view_template_common_header.tpl">
+    <entry file="file://$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.5596223">
+        <state line="14" column="67" selection-start="385" selection-end="385" vertical-scroll-proportion="0.1692491">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/readme.txt">
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/bestseller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/.htaccess">
+    <entry file="file://$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="80" selection-start="2245" selection-end="2245" vertical-scroll-proportion="-20.26923">
+        <state line="37" column="77" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.020383693">
           <folding>
-            <marker date="1378308798522" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1378379766323" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1378379766323" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/xml/export.xml">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/information/contact.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/cart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1284,7 +1289,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="16" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.0">
+        <state line="28" column="75" selection-start="842" selection-end="899" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1378194349680" expanded="false" signature="3856:3870" placeholder="..." />
             <marker date="1378194349680" expanded="false" signature="4493:4507" placeholder="..." />
@@ -1293,64 +1298,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/vqmod.log">
+    <entry file="file://$PROJECT_DIR$/catalog/controller/information/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="494" column="0" selection-start="23295" selection-end="23295" vertical-scroll-proportion="0.0">
+        <state line="12" column="38" selection-start="454" selection-end="454" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl">
+    <entry file="file://$PROJECT_DIR$/fast_order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="458" selection-end="484" vertical-scroll-proportion="-6.5384617">
-          <folding>
-            <marker date="1378128965226" expanded="false" signature="12176:12190" placeholder="..." />
-            <marker date="1378128965226" expanded="false" signature="13099:13117" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/fast_order.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+        <state line="50" column="6" selection-start="10" selection-end="2388" vertical-scroll-proportion="0.87957495">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml">
+    <entry file="file://$PROJECT_DIR$/system/library/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="67" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vqmod/xml/fast_order.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="143" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.0">
+        <state line="66" column="60" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="77" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-15.692307">
-          <folding>
-            <marker date="1378312425449" expanded="false" signature="14223:14237" placeholder="..." />
-            <marker date="1378312425449" expanded="false" signature="15146:15164" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fast_order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="317" selection-end="317" vertical-scroll-proportion="-3.9230769">
+        <state line="7" column="60" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/fast_order.js">
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/inquiry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="326" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.2431466">
+        <state line="7" column="57" selection-start="284" selection-end="284" vertical-scroll-proportion="0.14049587">
           <folding />
         </state>
       </provider>

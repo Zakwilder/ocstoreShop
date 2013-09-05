@@ -37,7 +37,7 @@
                           <p><input type="text" id="customer_company"/></p>
                           <p><input type="text" id="customer_job_title"/></p>
                           <p><input type="text" id="customer_phone"/></p>
-                          <p><textarea id="customer_message"/>Please provide information about following product: <?php echo $heading_title; ?></textarea></p>
+                          <p><textarea id="customer_message">Please provide information about following product: <?php echo $heading_title; ?></textarea></p>
                         </div>
                         <br/>
                         <div class="fast_order_center">

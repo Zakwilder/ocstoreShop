@@ -11,7 +11,7 @@
 
     if (isset($customer_name) && $customer_name!=="" && isset($customer_phone) && $customer_phone!=="") {
       $store_email = "gzak88@mail.ru";
-      $fast_order_email = "gzak88@mail.ru";
+      $fast_order_email = "gzak88@gmail.com";
       $product_name = iconv("UTF-8", "windows-1251", $product_name);
       $product_price = iconv("UTF-8", "windows-1251", $product_price);
       $subject   = '=?windows-1251?B?'.base64_encode($mail_subject).'?=';
@@ -19,11 +19,8 @@
       $customer_phone = iconv("UTF-8", "windows-1251", $customer_phone);
       $customer_message = iconv("UTF-8", "windows-1251", $customer_message);
       $subject = '=?windows-1251?B?'.base64_encode($mail_subject).'?=';
-      $headers = "From: <".$fast_order_email.">\r\n";
-      $headers = $headers."Return-path: <".$fast_order_email.">\r\n";
-      $headers = $headers."Content-type: text/plain; charset=\"windows-1251\"\r";
-      mail($store_email,$mail_subject,
-	      "Inquiry form
+	  $text =
+		  "Inquiry form
 	      \n\n
 	      Inquiry date: ".date('d.m.Y H:i')."
 	      \nCustomer: ".$customer_name."
@@ -33,8 +30,22 @@
 	      \nPhone number: ".$customer_phone."
 	      \nMessage: ".$customer_message."
 	      \n\nProduct: ".$product_name."
-	      \nProduct price: ".$product_price,
-	      $headers);
+	      \nProduct price: ".$product_price
+	  ;
+	  $mail = new Mail();
+	  $mail->protocol = $this->config->get('config_mail_protocol');
+	  $mail->parameter = $this->config->get('config_mail_parameter');
+	  $mail->hostname = $this->config->get('config_smtp_host');
+	  $mail->username = $this->config->get('config_smtp_username');
+	  $mail->password = $this->config->get('config_smtp_password');
+	  $mail->port = $this->config->get('config_smtp_port');
+	  $mail->timeout = $this->config->get('config_smtp_timeout');
+	  $mail->setTo($this->config->get('config_email'));
+	  $mail->setFrom($fast_order_email);
+	  $mail->setSender($customer_name);
+	  $mail->setSubject($mail_subject);
+	  $mail->setText(strip_tags($text));
+	  $mail->send();
     } else { 
       echo "empty"; 
     };

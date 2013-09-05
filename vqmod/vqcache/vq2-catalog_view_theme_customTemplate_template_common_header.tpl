@@ -28,7 +28,7 @@
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
 
 			
-        <link rel="stylesheet" type="text/css" href="catalog/view/theme/customTemplate/stylesheet/fast_order.css" />
+        <link rel="stylesheet" type="text/css" href="catalog/view/theme/customTemplate/stylesheet/product_inquiry.css" />
 			
 			
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/customTemplate/stylesheet/news.css" />
@@ -45,7 +45,7 @@
 <script type="text/javascript" src="catalog/view/javascript/common.js"></script>
 
 			
-				<script type="text/javascript" src="catalog/view/javascript/fast_order.js"></script>
+				<script type="text/javascript" src="catalog/view/javascript/product_inquiry.js"></script>
 			
 			
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/customTemplate/stylesheet/slideshow.css" />
