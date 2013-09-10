@@ -7,14 +7,13 @@ class ControllerModuleInquiry extends Controller {
 		$customer_name = trim($_POST['customer_name']);
 		$customer_phone = trim($_POST['customer_phone']);
 		$customer_message = trim($_POST['customer_message']);
-
+		$customer_mail = trim($_POST['customer_mail']) || 'noreply';
 		$customer_city = trim($_POST['customer_city']) || '';
 		$customer_company = trim($_POST['customer_company']) || '';
 		$customer_job_title = trim($_POST['customer_job_title']) || '';
 		$mail_subject = "Inquiry about the product " . $product_name . " (".date('d.m.Y H:i').")";
 
 		if (isset($customer_name) && $customer_name!=="" && isset($customer_phone) && $customer_phone!=="") {
-			$fast_order_email = "gzak88@gmail.com";
 			$product_name = iconv("UTF-8", "windows-1251", $product_name);
 			$product_price = iconv("UTF-8", "windows-1251", $product_price);
 			$subject   = '=?windows-1251?B?'.base64_encode($mail_subject).'?=';
@@ -45,7 +44,7 @@ class ControllerModuleInquiry extends Controller {
 			$mail->port = $this->config->get('config_smtp_port');
 			$mail->timeout = $this->config->get('config_smtp_timeout');
 			$mail->setTo($this->config->get('config_email'));
-			$mail->setFrom($fast_order_email);
+			$mail->setFrom($customer_mail);
 			$mail->setSender($customer_name);
 			$mail->setSubject($mail_subject);
 			$mail->setText(strip_tags($text));

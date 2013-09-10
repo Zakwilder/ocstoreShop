@@ -19,20 +19,22 @@
                         <div class="fast_order_center"><?php echo $heading_title; ?> — Inquiry</div>
                         <div class="fast_order_left">
                           <p>
-                            <span style="color: red">* </span>
+                            <font style="color: red">* </font>
                             Full Name:
                           </p>
+                          <p>E-mail:</p>
                           <p>City:</p>
                           <p>Company:</p>
                           <p>Job title:</p>
                           <p>
-                            <span style="color: red">* </span>
+                            <font style="color: red">* </font>
                             Phone number:
                           </p>
                           <p>Comment:</p>
                         </div>
                         <div class="fast_order_right">
                           <p><input type="text" id="customer_name"/></p>
+                          <p><input type="text" id="customer_mail"/></p>
                           <p><input type="text" id="customer_city"/></p>
                           <p><input type="text" id="customer_company"/></p>
                           <p><input type="text" id="customer_job_title"/></p>

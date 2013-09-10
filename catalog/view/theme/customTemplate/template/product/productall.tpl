@@ -7,7 +7,7 @@
         <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
         <?php } ?>
       </div>
-      <div class="content-heading"><?php echo $heading_title; ?></div>
+      <h1><?php echo $heading_title; ?></h1>
 
 
       <?php if ($products) { ?>

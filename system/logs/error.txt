@@ -848,3 +848,6 @@
 2013-09-03 18:22:47 - PHP Notice:  Undefined index: height in C:\xampp\htdocs\ocstore\admin\model\catalog\product.php on line 136
 2013-09-03 18:22:47 - PHP Notice:  Undefined index: length_class_id in C:\xampp\htdocs\ocstore\admin\model\catalog\product.php on line 136
 2013-09-03 18:22:47 - PHP Notice:  Undefined index: tax_class_id in C:\xampp\htdocs\ocstore\admin\model\catalog\product.php on line 136
+2013-09-10 16:33:38 - PHP Notice:  Error: E-Mail from required! in C:\xampp\htdocs\ocstore\system\library\mail.php on line 56
+2013-09-10 16:35:57 - PHP Notice:  Error: E-Mail from required! in C:\xampp\htdocs\ocstore\system\library\mail.php on line 56
+2013-09-10 16:37:09 - PHP Notice:  Error: E-Mail from required! in C:\xampp\htdocs\ocstore\system\library\mail.php on line 56

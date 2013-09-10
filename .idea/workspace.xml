@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ac70e-4c61-4291-be5a-ea14f26a7703" name="Default" comment="Login/Logout redirect">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/controller/module/inquiry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\catalog\view\javascript\fast_order.js" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.category.seopath.1375267603" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.category.seopath.1375276673" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.currency.1375267503" afterPath="" />
@@ -20,10 +17,13 @@
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1375267602" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\cache.store.1375278860" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ocstore\system\cache\index.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\ocstore\catalog\view\theme\customTemplate\stylesheet\fast_order.css" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/product_inquiry.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fast_order.php" afterPath="$PROJECT_DIR$/fast_order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/logs/error.txt" afterPath="$PROJECT_DIR$/system/logs/error.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/xml/fast_order.xml" afterPath="$PROJECT_DIR$/vqmod/xml/fast_order.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_common_header.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_common_header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/module/inquiry.php" afterPath="$PROJECT_DIR$/catalog/controller/module/inquiry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/product_inquiry.css" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/product_inquiry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js" afterPath="$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" afterPath="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,8 +32,8 @@
     <ignored path=".idea/" />
     <ignored path="system/cache/" />
     <file path="/header.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377857774783" ignored="false" />
-    <file path="/stylesheet.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378218694234" ignored="false" />
-    <file path="/Dummy.txt" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378372627508" ignored="false" />
+    <file path="/stylesheet.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378822863541" ignored="false" />
+    <file path="/Dummy.txt" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378822447702" ignored="false" />
     <file path="/cart.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375370187098" ignored="false" />
     <file path="/home.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377611510936" ignored="false" />
     <file path="/footer.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377678834703" ignored="false" />
@@ -44,7 +44,7 @@
     <file path="/slideshow.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375091155426" ignored="false" />
     <file path="/banner.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375091700019" ignored="false" />
     <file path="/login.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375705612301" ignored="false" />
-    <file path="/productall.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378129327526" ignored="false" />
+    <file path="/productall.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378822761552" ignored="false" />
     <file path="/.htaccess" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375262469293" ignored="false" />
     <file path="/account.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1375370769063" ignored="false" />
     <file path="/column_left.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1377787367734" ignored="false" />
@@ -116,13 +116,13 @@
     <file path="/filter.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378302239840" ignored="false" />
     <file path="/fast_order.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378372889800" ignored="false" />
     <file path="/fast_order.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378377263567" ignored="false" />
-    <file path="/fast_order.xml" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378379019521" ignored="false" />
+    <file path="/fast_order.xml" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378823314688" ignored="false" />
     <file path="C:/development-BLOG/workspace/files/templates/skin/new-jquery/js/main.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378307795283" ignored="false" />
     <file path="/vq2-catalog_view_theme_customTemplate_template_product_product.tpl" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378311798186" ignored="false" />
     <file path="/fast_order.css" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378310768489" ignored="false" />
     <file path="/dummy.xml" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378310734600" ignored="false" />
-    <file path="/inquiry.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378379531163" ignored="false" />
-    <file path="/product_inquiry.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378379684666" ignored="false" />
+    <file path="/inquiry.php" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378823504872" ignored="false" />
+    <file path="/product_inquiry.js" changelist="b61ac70e-4c61-4291-be5a-ea14f26a7703" time="1378823816792" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,47 +142,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/library/config.php">
+      <file leaf-file-name="stylesheet.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="761" column="19" selection-start="15146" selection-end="15146" vertical-scroll-proportion="-16.04">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productall.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="44" selection-start="451" selection-end="451" vertical-scroll-proportion="-5.8846154">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mail.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/library/mail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="6" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.65384614">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/information/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="454" selection-end="454" vertical-scroll-proportion="-7.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/module/account.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/module/cart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+              <folding>
+                <marker date="1378128965226" expanded="false" signature="12176:12190" placeholder="..." />
+                <marker date="1378128965226" expanded="false" signature="13099:13117" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,7 +177,16 @@
       <file leaf-file-name="fast_order.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vqmod/xml/fast_order.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="60" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0">
+            <state line="63" column="65" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_inquiry.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/product_inquiry.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="19" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -199,7 +195,7 @@
       <file leaf-file-name="product_inquiry.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="60" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+            <state line="13" column="568" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -208,21 +204,8 @@
       <file leaf-file-name="inquiry.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/controller/module/inquiry.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="57" selection-start="284" selection-end="284" vertical-scroll-proportion="0.14049587">
+            <state line="9" column="61" selection-start="396" selection-end="396" vertical-scroll-proportion="0.18063754">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="75" selection-start="842" selection-end="899" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1378194349680" expanded="false" signature="3856:3870" placeholder="..." />
-                <marker date="1378194349680" expanded="false" signature="4493:4507" placeholder="..." />
-                <marker date="1378194349680" expanded="false" signature="5133:5147" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -245,10 +228,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/search.tpl" />
-        <option value="$PROJECT_DIR$/catalog/language/english/english.php" />
         <option value="$PROJECT_DIR$/vqmod/vqcache/vq2-system_library_currency.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/jquery/colorbox/jquery.colorbox-min.js" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/jquery/colorbox/jquery.colorbox.js" />
         <option value="$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl" />
@@ -258,6 +238,9 @@
         <option value="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl" />
         <option value="$PROJECT_DIR$/fast_order.php" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/fast_order.js" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/product_inquiry.css" />
         <option value="$PROJECT_DIR$/vqmod/xml/fast_order.xml" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js" />
         <option value="$PROJECT_DIR$/catalog/controller/module/inquiry.php" />
@@ -297,6 +280,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1043,17 +1027,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
-    <property name="last_opened_file_path" value="C:/development-BLOG/workspace/files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -1135,10 +1118,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22465315" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22732124" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1147,6 +1129,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1221,56 +1204,21 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system/engine/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.56416464">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/library/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/module/page_content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/xml/price_free_1.0.1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="67" selection-start="385" selection-end="385" vertical-scroll-proportion="0.1692491">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/module/bestseller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_customTemplate_template_product_product.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="77" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.020383693">
-          <folding>
-            <marker date="1378379766323" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1378379766323" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/information/contact.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/module/account.php">
@@ -1289,27 +1237,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="75" selection-start="842" selection-end="899" vertical-scroll-proportion="0.0">
+        <state line="28" column="75" selection-start="842" selection-end="899" vertical-scroll-proportion="0.019473081">
           <folding>
-            <marker date="1378194349680" expanded="false" signature="3856:3870" placeholder="..." />
-            <marker date="1378194349680" expanded="false" signature="4493:4507" placeholder="..." />
-            <marker date="1378194349680" expanded="false" signature="5133:5147" placeholder="..." />
+            <marker date="1378194349680" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1378194349680" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1378194349680" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/information/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="454" selection-end="454" vertical-scroll-proportion="-7.8461537">
+        <state line="12" column="38" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fast_order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="6" selection-start="10" selection-end="2388" vertical-scroll-proportion="0.87957495">
-          <folding />
-        </state>
+        <state line="50" column="6" selection-start="10" selection-end="2388" vertical-scroll-proportion="0.87957495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/library/config.php">
@@ -1319,23 +1265,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/productall.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="44" selection-start="451" selection-end="451" vertical-scroll-proportion="-5.8846154">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="761" column="19" selection-start="15146" selection-end="15146" vertical-scroll-proportion="-16.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1378128965226" expanded="false" signature="12176:12190" placeholder="..." />
+            <marker date="1378128965226" expanded="false" signature="13099:13117" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vqmod/xml/fast_order.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="60" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.0">
+        <state line="63" column="65" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/javascript/product_inquiry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="60" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+        <state line="13" column="568" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/customTemplate/stylesheet/product_inquiry.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="19" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/module/inquiry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="57" selection-start="284" selection-end="284" vertical-scroll-proportion="0.14049587">
+        <state line="9" column="61" selection-start="396" selection-end="396" vertical-scroll-proportion="0.18063754">
           <folding />
         </state>
       </provider>
