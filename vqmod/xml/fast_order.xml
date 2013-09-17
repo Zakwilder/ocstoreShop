@@ -79,4 +79,46 @@
 			</add>
 		</operation>
 	</file>
+    <file name="catalog/view/theme/customTemplate/template/information/information.tpl">
+		<operation>
+			<search position="after">
+			<![CDATA[
+				<?php if ($id == 8) { ?>
+			]]>
+			</search>
+			<add>
+			<![CDATA[
+                    <a id="contact-us-link" class="button" />Contact Us</a>
+                    <div style="display:none">
+                        <div id="contact-us-form">
+                            <div class="fast_order_center">Contact Us Form</div>
+                            <div class="fast_order_left">
+                              <p>
+                                <font style="color: red">* </font>
+                                Name:
+                              </p>
+                              <p>
+                                E-mail:
+                              </p>
+                              <p>
+                                <font style="color: red">* </font>
+                                Enquiry:
+                              </p>
+                            </div>
+                            <div class="fast_order_right">
+                              <p><input type="text" id="customer_name"/></p>
+                              <p><input type="text" id="customer_mail"/></p>
+                              <p><textarea id="customer_message"></textarea></p>
+                            </div>
+                            <br/>
+                            <div class="fast_order_center">
+                              <p id="fast_order_result">Fields with <span style="color: red">*</span> are required</p>
+                              <button class="fast_order_button"><span>Send Inquiry</span></button>
+                            </div>
+                        </div>
+                    </div>
+			]]>
+			</add>
+		</operation>
+	</file>
 </modification>

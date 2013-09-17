@@ -12,6 +12,38 @@ class ControllerInformationInformation extends Controller {
 			'href'      => $this->url->link('common/home'),
         	'separator' => false
       	);
+
+		if (($this->request->server['REQUEST_METHOD'] == 'POST')) {
+
+			$customer_name = trim($_POST['customer_name']);
+			$customer_message = trim($_POST['customer_message']);
+			$customer_mail = trim($_POST['customer_mail']) || 'noreply';
+
+			if (isset($customer_name) && $customer_name !== "" && isset($customer_message) && $customer_message !== "") {
+				$customer_name = iconv("UTF-8", "windows-1251", $customer_name);
+				$customer_message = iconv("UTF-8", "windows-1251", $customer_message);
+
+				$mail = new Mail();
+				$mail->protocol = $this->config->get('config_mail_protocol');
+				$mail->parameter = $this->config->get('config_mail_parameter');
+				$mail->hostname = $this->config->get('config_smtp_host');
+				$mail->username = $this->config->get('config_smtp_username');
+				$mail->password = $this->config->get('config_smtp_password');
+				$mail->port = $this->config->get('config_smtp_port');
+				$mail->timeout = $this->config->get('config_smtp_timeout');
+				$mail->setTo($this->config->get('config_email'));
+				$mail->setFrom($customer_mail);
+				$mail->setSender($customer_name);
+				$mail->setSubject('Contact us');
+				$mail->setText(strip_tags(html_entity_decode($customer_message, ENT_QUOTES, 'UTF-8')));
+				$mail->send();
+			} else {
+				echo 'empty';
+				die;
+			};
+
+
+		}
 		
 		if (isset($this->request->get['information_id'])) {
 			$information_id = (int)$this->request->get['information_id'];
@@ -45,7 +77,8 @@ class ControllerInformationInformation extends Controller {
       		$this->data['button_continue'] = $this->language->get('button_continue');
 			
 			$this->data['description'] = html_entity_decode($information_info['description'], ENT_QUOTES, 'UTF-8');
-      		
+			$this->data['id'] = $information_id;
+
 			$this->data['continue'] = $this->url->link('common/home');
 
 			if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/information/information.tpl')) {

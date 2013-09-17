@@ -851,3 +851,18 @@
 2013-09-10 16:33:38 - PHP Notice:  Error: E-Mail from required! in C:\xampp\htdocs\ocstore\system\library\mail.php on line 56
 2013-09-10 16:35:57 - PHP Notice:  Error: E-Mail from required! in C:\xampp\htdocs\ocstore\system\library\mail.php on line 56
 2013-09-10 16:37:09 - PHP Notice:  Error: E-Mail from required! in C:\xampp\htdocs\ocstore\system\library\mail.php on line 56
+2013-09-17 10:13:23 - PHP Notice:  Undefined variable: special in C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-catalog_view_theme_customTemplate_template_information_information.tpl on line 19
+2013-09-17 10:13:23 - PHP Notice:  Undefined variable: price in C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-catalog_view_theme_customTemplate_template_information_information.tpl on line 19
+2013-09-17 10:14:14 - PHP Notice:  Undefined variable: special in C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-catalog_view_theme_customTemplate_template_information_information.tpl on line 19
+2013-09-17 10:14:14 - PHP Notice:  Undefined variable: price in C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-catalog_view_theme_customTemplate_template_information_information.tpl on line 19
+2013-09-17 10:14:16 - PHP Notice:  Undefined variable: special in C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-catalog_view_theme_customTemplate_template_information_information.tpl on line 19
+2013-09-17 10:14:16 - PHP Notice:  Undefined variable: price in C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-catalog_view_theme_customTemplate_template_information_information.tpl on line 19
+2013-09-17 10:15:53 - PHP Notice:  Undefined variable: special in C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-catalog_view_theme_customTemplate_template_information_information.tpl on line 20
+2013-09-17 10:15:53 - PHP Notice:  Undefined variable: price in C:\xampp\htdocs\ocstore\vqmod\vqcache\vq2-catalog_view_theme_customTemplate_template_information_information.tpl on line 20
+2013-09-17 10:40:27 - PHP Notice:  Undefined index: customer_mail in C:\xampp\htdocs\ocstore\catalog\controller\information\information.php on line 20
+2013-09-17 10:40:31 - PHP Notice:  Undefined index: customer_mail in C:\xampp\htdocs\ocstore\catalog\controller\information\information.php on line 20
+2013-09-17 10:41:57 - PHP Notice:  Undefined index: customer_mail in C:\xampp\htdocs\ocstore\catalog\controller\information\information.php on line 20
+2013-09-17 10:42:44 - PHP Notice:  Undefined index: customer_mail in C:\xampp\htdocs\ocstore\catalog\controller\information\information.php on line 20
+2013-09-17 10:43:54 - PHP Notice:  Undefined index: customer_mail in C:\xampp\htdocs\ocstore\catalog\controller\information\information.php on line 20
+2013-09-17 10:44:09 - PHP Notice:  Undefined index: customer_mail in C:\xampp\htdocs\ocstore\catalog\controller\information\information.php on line 20
+2013-09-17 10:44:47 - PHP Notice:  Error: E-Mail message required! in C:\xampp\htdocs\ocstore\system\library\mail.php on line 71

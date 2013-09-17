@@ -78,7 +78,7 @@ class ControllerCommonColumnLeft extends Controller {
 
 		$this->data['home'] = $this->url->link('common/home');
 		$this->data['product'] = $this->url->link('product/productall', '', 'SSL');
-		$this->data['contact'] = $this->url->link('information/contact', '', 'SSL');
+		$this->data['contact'] = $this->url->link('information/information', 'information_id=8', 'SSL');
 		$this->data['about'] = $this->url->link('information/information', 'information_id=4', 'SSL');
 		$this->data['portfolio'] = $this->url->link('information/information', 'information_id=7', 'SSL');
 

@@ -1,58 +1,58 @@
-#fast_order_form {
+#fast_order_form, #contact-us-form {
     color: #000;
 }
 
-#fast_order_form .fast_order_left {
+#fast_order_form .fast_order_left, #contact-us-form .fast_order_left {
   display: inline-block;
   width: 29%;
   text-align: right;
 }
 
-#fast_order_form .fast_order_right {
+#fast_order_form .fast_order_right, #contact-us-form .fast_order_right {
   float: right;
   display: inline-block;
   width: 68%;
   text-align: left;
 }
 
-#fast_order_form .fast_order_right #customer_message {
+#fast_order_form .fast_order_right #customer_message, #contact-us-form .fast_order_right #customer_message {
     width: 300px;
     height: 150px;
 }
 
-#fast_order_form .fast_order_right p {
+#fast_order_form .fast_order_right p, #contact-us-form .fast_order_right p {
   margin-bottom: 15px;
-  padding: 0px;
+  padding: 0;
 }
-#fast_order_form .fast_order_center {
+#fast_order_form .fast_order_center, #contact-us-form .fast_order_center {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 10px;
     clear: both;
 }
-#fast_order_form #fast_order_result {
+#fast_order_form #fast_order_result, #contact-us-form #fast_order_result {
   color: #aaa;
   margin-bottom: 14px;
 }
-#fast_order_form #fast_order_result .fast_order_error {
+#fast_order_form #fast_order_result .fast_order_error, #contact-us-form #fast_order_result .fast_order_error {
   color: #f00;
 }
-#fast_order_form #fast_order_result .fast_order_success {
+#fast_order_form #fast_order_result .fast_order_success, #contact-us-form #fast_order_result .fast_order_success {
   color: #00d12a;
 }
-#fast_order_form p {
+#fast_order_form p, #contact-us-form p {
   margin-bottom: 17px;
-  padding: 0px;
+  padding: 0;
 }
 
-#fast_order_form input {
-  margin: 0px;
-  padding: 0px;
+#fast_order_form input, #contact-us-form input {
+  margin: 0;
+  padding: 0;
   height: 20px;
   width: 220px;
 }
 
-#fast_order_form .fast_order_button {
+#fast_order_form .fast_order_button, #contact-us-form .fast_order_button {
   font-size: 17px;
   cursor: pointer;
   height: 40px;
