@@ -19,4 +19,10 @@
     </div>
     <?php echo $content_bottom; ?>
 </div>
+<script type="text/javascript"><!--
+    $('.colorbox').colorbox({
+        overlayClose: true,
+        opacity: 0.5
+    });
+//--></script>
 <?php echo $footer; ?>
